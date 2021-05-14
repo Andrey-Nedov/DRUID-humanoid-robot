@@ -1,5 +1,5 @@
 # Человекоподобный клиент-сервисный робот / Humanoid customer service robot
-<img src="/imgs/c1_2_full-hd.png" width="700"/>
+<img src="/imgs/c1/c1_2_full-hd.png" width="700"/>
 
 *01.07.2017 - 01.03.2018*  [![Generic badge](https://img.shields.io/badge/Status-Active-green.svg)](https://shields.io/)<br/>
 
