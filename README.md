@@ -46,7 +46,7 @@
 
 Моделирование конструкции производилось в Autodesk Inventor.
 
-<img src="/imgs/renders/platform/pl1_anim.png" width="600"/>
+<img src="/imgs/renders/platform/pl1_anim.gif" width="600"/>
 
 ## Состав компонентов
 
