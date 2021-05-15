@@ -48,6 +48,13 @@
 
 <img src="/imgs/renders/platform/pl1_anim.gif" width="600"/>
 
+<p>
+  <img src="/imgs/docs/frame.jpg" width="200"/>
+  <img src="/imgs/docs/plate.png" width="200"/>
+  <img src="/imgs/docs/motor.png" width="200"/>
+  <img src="/imgs/docs/motor_f.png" width="200"/>
+</p>
+
 ## Состав компонентов
 
 
