@@ -4,7 +4,7 @@
 *01.07.2017 - 01.03.2018*  [![Generic badge](https://img.shields.io/badge/Status-Active-green.svg)](https://shields.io/)<br/>
 
 *Команда/Team*
-1. [Андрей Недов](https://github.com/Andrey-Nedov-is-a-human) (Software, hardware, construction, design, media, team leed)
+1. [Андрей Недов](https://github.com/Andrey-Nedov-is-a-human)
 - Лидер проекта
 - Создание архитектуры, изготовление и установка аппаратного обеспечения
 - Моделирование, изготовление и сборка конструкции и обшивки
