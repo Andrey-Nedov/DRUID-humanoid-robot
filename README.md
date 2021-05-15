@@ -30,7 +30,7 @@
 
 Финансирует проект компания [Диджитал Репаблик](https://di-re.ru/) с целью дальнейешго производства серии.
 
-# Введение
+# О проекте
 
 [inst @druid_robotics](https://www.instagram.com/druid_robotics/)
 
