@@ -63,7 +63,7 @@ _Репозиторий в работе..._
 <img src="/imgs/photos/2_3_1501.JPG" width="600"/> 
 
 <p>
-  <img src="/imgs/docs/frame.jpg" width="240"/>
+  <img src="/imgs/docs/frame.jpg" width="250"/>
   <img src="/imgs/docs/plate.png" width="220"/>
   <img src="/imgs/docs/motor.png" width="220"/>
   <img src="/imgs/docs/motor_f.png" width="220"/>
