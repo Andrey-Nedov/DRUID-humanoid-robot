@@ -94,7 +94,7 @@
 
 <p>
   <img src="/imgs/photos/1.png" width="200"/>
-  <img src="/imgs/photos/1_1.png" width="500"/>
+  <img src="/imgs/photos/1_1.png" width="550"/>
 </p>
 
 *Репозиторий в работе... Далее расскажу про верхнюю часть робота и оболочку*
