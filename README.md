@@ -64,7 +64,7 @@
 
 ### Система охлаждения
 
-<img src="/imgs/renders/pl2_anim.gif" width="600"/> 
+<img src="/imgs/renders/platform/pl2_anim.gif" width="600"/> 
 
 ## Состав компонентов 
 
