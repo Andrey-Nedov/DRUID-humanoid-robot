@@ -26,6 +26,8 @@
 
 Научный руководитель [Идиатуллов Тимур Тофикович](https://old.mospolytech.ru/index.php?id=6714).
 
+Финансирует проект компания [Диджитал Репаблик](https://di-re.ru/) с целью дальнейешго производства серии.
+
 # Введение
 
 [@druid_robotics](https://www.instagram.com/druid_robotics/)
