@@ -1,18 +1,39 @@
-# Человекоподобный клиент-сервисный робот / Humanoid customer service robot
-<img src="/imgs/c1_2_full-hd.png" width="700"/>
+# Человекоподобный клиент-сервисный робот / Humanoid service robot
+<img src="/imgs/c1/c1_2_full-hd.png" width="700"/>
 
-*01.07.2017 - 01.03.2018*  [![Generic badge](https://img.shields.io/badge/Status-Active-green.svg)](https://shields.io/)<br/>
+*01.07.2020 - 31.07.2021*  [![Generic badge](https://img.shields.io/badge/Status-Active-green.svg)](https://shields.io/)<br/>
 
 *Команда/Team*
-1. [Андрей Недов](https://github.com/Andrey-Nedov-is-a-human) (Software, hardware, construction, design, media, team leed)
-2. Алина Горбунова (Design)
-3. Алексей Абахтимов (Software)
+1. [Андрей Недов](https://github.com/Andrey-Nedov-is-a-human)
+- Лидер проекта
+- Создание архитектуры, изготовление и установка аппаратного обеспечения
+- Моделирование, изготовление и сборка конструкции и обшивки
+- Написание софта на всех уровнях
+- Подбор команды
+- Поиск и получение предпосевных инвестиций на создание MVP
+- Менеджмент
+- Экспертиза
+
+2. [Алина Горбунова](https://www.instagram.com/xhirchx/)
+- Разработка, моделирование и рендеринг дизайн-концепта
+- Моделирование обшивки
+
+3. [Алексей Абахтимов](https://github.com/AmazingRoovy)
+- Разработка систем распознавания объектов и лиц
 <br/>
 
 Проект является [моей](https://github.com/Andrey-Nedov-is-a-human) дипломной работой по окончании 4-го курса ИТ-факультета [Московского Политехнического Университета](https://new.mospolytech.ru/en/).
 
 Научный руководитель [Идиатуллов Тимур Тофикович](https://old.mospolytech.ru/index.php?id=6714).
 
+# Введение
 
-Репозиторий в работе...
+<img src="/imgs/c1/4_full-hd.png" width="900"/>
+
+# Передвижная платформа
+
+
+
+
+*Репозиторий в работе...*
 
