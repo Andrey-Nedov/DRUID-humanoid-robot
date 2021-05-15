@@ -65,8 +65,8 @@ _Репозиторий в работе..._
 <p>
   <img src="/imgs/docs/frame.jpg" width="250"/>
   <img src="/imgs/docs/plate.png" width="220"/>
-  <img src="/imgs/docs/motor.png" width="220"/>
-  <img src="/imgs/docs/motor_f.png" width="220"/>
+  <img src="/imgs/docs/motor.png" width="230"/>
+  <img src="/imgs/docs/motor_f.png" width="200"/>
 </p>
 
 ### Система охлаждения
