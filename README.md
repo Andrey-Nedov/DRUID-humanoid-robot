@@ -46,7 +46,7 @@
 
 Моделирование конструкции производилось в Autodesk Inventor.
 
-<img src="/imgs/renders/platform/pl1_anim.gif" width="600"/>
+<><img src="/imgs/renders/platform/pl1_anim.gif" width="600"/>
 
 <p>
   <img src="/imgs/docs/frame.jpg" width="220"/>
@@ -54,6 +54,10 @@
   <img src="/imgs/docs/motor.png" width="220"/>
   <img src="/imgs/docs/motor_f.png" width="220"/>
 </p>
+
+### Система охлаждения
+
+
 
 ## Состав компонентов
 
