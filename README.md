@@ -29,6 +29,7 @@
 # Введение
 
 [@druid_robotics](https://www.instagram.com/druid_robotics/)
+
 <img src="/imgs/c1/4_full-hd.png" width="700"/>
 
 # Передвижная платформа
