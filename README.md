@@ -35,6 +35,8 @@
 
 <img src="/imgs/c1/4_full-hd.png" width="700"/>
 
+_Репозиторий в работе..._
+
 # Передвижная платформа
 
 <img src="/imgs/photos/2_3_1500.jpg" width="600"/>
