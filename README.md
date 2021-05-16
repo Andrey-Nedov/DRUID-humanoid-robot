@@ -146,14 +146,14 @@ _Репозиторий в работе..._
 
 <img src="/imgs/renders/2.png" width="700"/>
 
-Так это выглядело на модели в сборе с платформой и центральной опорой.
+Так это выглядело на модели в сборе с платформой и центральной опорой
 
-<img src="/imgs/renders/3.png" width="300"/>
+<img src="/imgs/renders/3.png" width="450"/>
 
 Далее подоб и заказ подшипников и 3D-печать уже из более прочного PET-G пластика и сборка.
 
-<img src="/imgs/photos/2_7.png" width="500"/>
-<img src="/imgs/photos/9.png" width="500"/>
+<img src="/imgs/photos/2_7.jpg" width="500"/>
+<img src="/imgs/photos/9.jpg" width="500"/>
 
 _Промежуточный результат для теста кисти:_
 
