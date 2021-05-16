@@ -154,7 +154,7 @@ _Репозиторий в работе..._
 
 <img src="/imgs/photos/2_7.jpg" width="300"/>
 <img src="/imgs/photos/9.jpg" width="300"/>
-<img src="/imgs/photos/12.jpg" width="600"/>
+<img src="/imgs/photos/12.JPG" width="600"/>
 
 _Промежуточный результат для теста кисти:_
 
