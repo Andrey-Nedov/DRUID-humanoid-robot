@@ -152,9 +152,11 @@ _Репозиторий в работе..._
 
 Далее подбор и заказ подшипников и 3D-печать уже из более прочного PET-G пластика и сборка.
 
-<img src="/imgs/photos/2_7.jpg" width="300"/>
-<img src="/imgs/photos/9.jpg" width="300"/>
-<img src="/imgs/photos/12.JPG" width="600"/>
+<p>
+  <img src="/imgs/photos/2_7.jpg" width="350"/>
+  <img src="/imgs/photos/9.jpg" width="350"/>
+  <img src="/imgs/photos/12.JPG" width="700"/>
+</p>
 
 _Промежуточный результат для теста кисти:_
 
