@@ -227,6 +227,7 @@ _Промежуточный результат для теста кисти:_
 
 ### Блоки управления сервоприводами
 
+<img src="/imgs/renders/into_blocks.jpg" width="600"/>
 <p>
   <img src="/imgs/photos/2_22.jpg" width="550"/>
   <img src="/imgs/photos/2_4.jpg" width="250"/>
