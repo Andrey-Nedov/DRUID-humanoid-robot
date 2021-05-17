@@ -132,9 +132,9 @@ _Репозиторий в работе..._
 Для крепления опоры к платформе используется всего три болта, для крепления рук, используется по одному болту на каждую руку
 
 <p>
-  <img src="/imgs/photos/8.jpg" width="300"/>
-  <img src="/imgs/photos/7.jpg" width="300"/>
-<\p>
+  <img src="/imgs/photos/8.jpg" width="250"/>
+  <img src="/imgs/photos/7.jpg" width="250"/>
+</p>
 
 
 <br/><br/><br/>
