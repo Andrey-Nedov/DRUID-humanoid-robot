@@ -24,7 +24,7 @@
 - Разработка систем распознавания объектов и лиц
 <br/>
 
-Проект является моей [(Andrey-Nedov-is-a-human)](https://github.com/Andrey-Nedov-is-a-human) дипломной работой по окончании 4-го курса ИТ-факультета [Московского Политехнического Университета](https://new.mospolytech.ru/en/). 
+Проект является моей [(Andrey-Nedov-is-a-human)](https://github.com/Andrey-Nedov-is-a-human) дипломной работой по окончании 4-го курса ИТ-факультета [Московского Политехнического Университета](https://new.mospolytech.ru/en/). Образовательная программа [кибер-физические системы](https://old.mospolytech.ru/index.php?id=5318).
 
 Научный руководитель [Идиатуллов Тимур Тофикович](https://old.mospolytech.ru/index.php?id=6714).
 
