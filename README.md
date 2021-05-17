@@ -229,7 +229,7 @@ _Промежуточный результат для теста кисти:_
 
 <p>
   <img src="/imgs/photos/2_22.jpg" width="600"/>
-  <img src="/imgs/photos/2_4.jpg" width="260"/>
+  <img src="/imgs/photos/2_4.jpg" width="265"/>
 </p>
 
 Работу всех сервоприводов робота обеспечивают два модуля: 
