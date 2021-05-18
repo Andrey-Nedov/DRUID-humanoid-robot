@@ -239,7 +239,7 @@ _Промежуточный результат для теста кисти:_
 
 _Тестирование руки:_
 
-<img src="/imgs/video/mov360.gif" width="400"/>
+<img src="/imgs/video/mov480.gif" width="300"/>
 
 
 
