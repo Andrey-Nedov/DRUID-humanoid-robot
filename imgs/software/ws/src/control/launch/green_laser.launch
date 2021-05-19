@@ -1,0 +1,7 @@
+<launch>
+
+	<!-- <arg name="model" default="$(find control)/urdf/turt_model.urdf"/> -->
+	<param name="robot_description" command="cat $(find control)/urdf/turt_model.urdf" />
+	<node pkg="control" type="cmd.py" name = "cmd1" output ="screen"/>
+
+</launch>
