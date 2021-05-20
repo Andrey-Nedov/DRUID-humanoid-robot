@@ -344,12 +344,24 @@ _Первая демка от [Алексея Абахтимова](#team) по 
 
  <img src="/imgs/software/face.gif" width="700"/>
  
-Так же много экспериментов проводилось с Detectron2. Сначала я ставил проект и обрабатывал отдельные изображения тремя предобученными сетями две - реализуют instance segmantation - поиск, классификация и выделение маски знакомых объектов, и panoptic segmantation - сеть пытается отнести кажый пиксель изображения к какому-либо знакомому классу. Третья сеть делает предикт ключевых точек на теле изображенного человека.
+Так же много экспериментов проводилось с _Detectron2_. Сначала я ставил проект и обрабатывал отдельные изображения тремя предобученными сетями две - реализуют instance segmentation - поиск, классификация и выделение маски знакомых объектов, и panoptic segmentation - сеть пытается отнести кажый пиксель изображения к какому-либо знакомому классу. Третья сеть делает предикт ключевых точек на теле изображенного человека.
 
 <p>
- <img src="/imgs/software/1.jpg" width="300"/>
- <img src="/imgs/software/2.jpg" width="300"/>
- <img src="/imgs/software/3.jpg" width="300"/>
+ <img src="/imgs/software/1.jpg" width="400"/>
+ <img src="/imgs/software/4.jpg" width="200"/>
+ <img src="/imgs/software/6.jpg" width="200"/>
+</p>
+
+<p>
+ <img src="/imgs/software/2.jpg" width="400"/>
+ <img src="/imgs/software/5.jpg" width="200"/>
+ <img src="/imgs/software/7.jpg" width="200"/>
+</p>
+
+<p>
+ <img src="/imgs/software/1.jpg" width="400"/>
+ <img src="/imgs/software/8.jpg" width="200"/>
+ <img src="/imgs/software/9.jpg" width="200"/>
 </p>
 
 *Репозиторий в работе... Далее в этом разделе расскажу про программное обеспечение робота* 
