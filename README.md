@@ -364,4 +364,16 @@ _Первая демка от [Алексея Абахтимова](#team) по 
  <img src="/imgs/software/9.jpg" width="200"/>
 </p>
 
+Далее написал скрипт для работы Detectron2 в реалтайме. Записи не сохранилось, только кадры, 
+
+<p>
+ <img src="/imgs/software/1.jpg" width="300"/>
+ <img src="/imgs/software/2.jpg" width="300"/>
+</p>
+
+<p>
+ <img src="/imgs/software/3.png" width="300"/>
+ <img src="/imgs/software/4.png" width="300"/>
+</p>
+
 *Репозиторий в работе... Далее в этом разделе расскажу про программное обеспечение робота* 
