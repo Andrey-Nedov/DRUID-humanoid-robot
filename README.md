@@ -298,15 +298,15 @@ _URDF разметка конфигурации робота_
 ```xml
 <?xml version="1.0" ?>
 <robot name="green_box" xmlns:xacro="http://www.ros.org/wiki/xacro">
-		<link name="base_link">
+	<link name="base_link">
 	    <visual>
-			<origin rpy="0 0 0" xyz="0 0 0.3"/>
-			<geometry>
-				<box size="0.5 0.5 0.5"/>
-			</geometry>
-			<material name="green">
+		<origin rpy="0 0 0" xyz="0 0 0.3"/>
+		<geometry>
+			<box size="0.5 0.5 0.5"/>
+		</geometry>
+		<material name="green">
     			<color rgba="0.1 1.0 0.1 1.0"/>
-  			</material>
+  		</material>
 	    </visual>
 	</link>
 	<joint name="base_joint2" type="fixed">
@@ -314,16 +314,22 @@ _URDF разметка конфигурации робота_
 		<child link="base_scan"/>	 
 	</joint>
 	<link name="base_scan">
-		<!-- <visual>
-			<origin rpy="0 0 0" xyz="0 0 0"/>
-			<geometry>
-				<box size="0.2 0.2 0.2"/>
-			</geometry>
-			<material name="blue">
-    			<color rgba="0.1 0.1 1.0 1.0"/>
-  			</material>
-		</visual> -->
-	</link> -->
+	</link>
 </robot>
 ```
+
+_launch-файл_
+```HTML
+<launch>
+	<param name="robot_description" command="cat $(find control)/urdf/turt_model.urdf" />
+	<node pkg="control" type="cmd.py" name = "cmd1" output ="screen"/>
+</launch>
+```
+
+_Результат_
+
+<img src="/imgs/renders/bot.gif" width="600"/>
+
+
+
 *Репозиторий в работе... Далее в этом разделе расскажу про программное обеспечение робота*
