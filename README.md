@@ -313,7 +313,7 @@ _Оболочка готова к изготовлению_
 
 <img src="/imgs/renders/cover_on.jpg" width="700"/>
 
-_Робот в реальном цвете_
+_DRUID в реальном цвете_
 
 <img src="/imgs/renders/cover_on2.jpg" width="700"/>
 
