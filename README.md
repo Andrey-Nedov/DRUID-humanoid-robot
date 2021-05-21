@@ -287,8 +287,8 @@ _Конструкция робота без оболочки_
 	<img src="/imgs/c1/2.jpg" width="300"/>
 	<img src="/imgs/c1/3.jpg" width="300"/>
 <!-- 	<img src="/imgs/c1/4.jpg" width="200"/> -->
-	<img src="/imgs/c1/c1_1_full-hd.png" width="700"/>
-	<img src="/imgs/c1/vot.png" width="700"/>
+	<img src="/imgs/c1/c1_1_full-hd.png" width="900"/>
+	<img src="/imgs/c1/vot.png" width="900"/>
 </p>
 
 
