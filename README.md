@@ -273,7 +273,7 @@ _Тестируем правую руку:_
 
 _Конструкция робота без оболочки_
 
-<img src="/imgs/render/constr2.jpg" width="700"/>
+<img src="/imgs/renders/constr2.jpg" width="700"/>
 
 
 
