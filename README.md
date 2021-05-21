@@ -41,7 +41,7 @@
 7. Дизайн и оболочка
 8. ПО робота
 
-# О проекте
+<a name="team"># О проекте</a>
 
 [inst @druid_robotics](https://www.instagram.com/druid_robotics/)
 
