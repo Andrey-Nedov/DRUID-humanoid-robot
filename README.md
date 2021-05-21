@@ -280,9 +280,6 @@ _Конструкция робота без оболочки_
 <p>
 	<img src="/imgs/sketches/sc2.jpg" width="200"/>
 	<img src="/imgs/sketches/sc3.jpg" width="200"/>
-</p>
-
-<p>
 	<img src="/imgs/с1/1.jpg" width="200"/>
 	<img src="/imgs/с1/2.jpg" width="200"/>
 	<img src="/imgs/с1/3.jpg" width="200"/>
