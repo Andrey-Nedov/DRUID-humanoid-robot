@@ -16,11 +16,11 @@
 - Экспертиза
 - Медиапроизводство
 
-2. <a name="team">[Алина Горбунова](https://www.instagram.com/xhirchx/)</a>
+2. <a name="alina">[Алина Горбунова](https://www.instagram.com/xhirchx/)</a>
 - Разработка, моделирование и рендеринг дизайн-концепта
 - Моделирование обшивки
 
-3. [Алексей Абахтимов](https://github.com/AmazingRoovy)
+3. <a name="alina">[Алексей Абахтимов](https://github.com/AmazingRoovy)</a>
 - Разработка систем распознавания объектов и лиц
 <br/>
 
