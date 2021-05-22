@@ -168,13 +168,13 @@ _Репозиторий в работе..._
 
 И в итоге получилась такая кисть
 
-<img src="/imgs/photos/2_8.JPG" width="600"/>
+<img src="/imgs/photos/2_8.JPG" width="700"/>
 
 _Также отсняли небольшое промо для соцсетей_
 
 Полная версия на [Youtube](https://www.youtube.com/watch?v=D9OtJSoRQ10)
 
-<img src="/imgs/promo/hand_promo.gif" width="600"/> 
+<img src="/imgs/promo/hand_promo.gif" width="700"/> 
 
 За сгибание и разгибание кисти отвечает система тросов, соединённая с комплектом сервоприводов в предплечье.
 
