@@ -164,7 +164,7 @@ _Репозиторий в работе..._
 
 Версия за версией прошло лето
 
-<img src="/imgs/photos/old_hand.jpg" width="600"/>
+<img src="/imgs/photos/old_hand 2.jpg" width="600"/>
 
 И в итоге получилась такая кисть
 
