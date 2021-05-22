@@ -162,6 +162,8 @@ _Репозиторий в работе..._
 
 <img src="/imgs/renders/hand.jpg" width="600"/>
 
+<img src="/imgs/photos/2_8.JPG" width="600"/>
+
 _Также отсняли небольшое промо для соцсетей_
 
 Полная версия на [Youtube](https://www.youtube.com/watch?v=D9OtJSoRQ10)
