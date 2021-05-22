@@ -172,7 +172,7 @@ _Репозиторий в работе..._
 
 _Также отсняли небольшое промо для соцсетей_
 
-Полная версия на [Youtube](https://www.youtube.com/watch?v=D9OtJSoRQ10)
+[Полная версия на Youtube](https://www.youtube.com/watch?v=D9OtJSoRQ10)
 
 <img src="/imgs/promo/hand_promo.gif" width="700"/> 
 
