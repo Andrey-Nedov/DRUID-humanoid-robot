@@ -314,8 +314,8 @@ _Конструкция робота без оболочки_
 После многих встреч, долгих разговоров и десятков эскизов мы с [Алиной](#team) выработали видение дизайна робота, которое чуть позже было воплощено ей в дизайн-концепт.
 
 <p>
-	<img src="/imgs/sketches/sc2.jpg" width="200"/>
-	<img src="/imgs/sketches/sc3.jpg" width="200"/>
+	<img src="/imgs/sketches/sc2_2.jpg" width="200"/>
+	<img src="/imgs/sketches/sc3_2.jpg" width="200"/>
 </p>	
 
 <p>
