@@ -1,5 +1,5 @@
 # Человекоподобный клиент-сервисный робот / Humanoid service robot
-<img src="/imgs/c1/c1_2_full-hd.png" width="700"/>
+<img src="/imgs/c1_2/druid.png" width="800"/>
 
 *01.07.2020 - 31.07.2021*  [![Generic badge](https://img.shields.io/badge/Status-Active-green.svg)](https://shields.io/)<br/>
 
