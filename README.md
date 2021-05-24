@@ -244,7 +244,7 @@ _Промежуточный результат для теста кисти:_
 
 _Тестируем правую руку:_
 
-<img src="/imgs/video/mov480.gif" width="300"/>
+<img src="/imgs/video/mov360.gif" width="300"/>
 
 
 <br/><br/><br/>
