@@ -324,14 +324,14 @@ _Конструкция робота без оболочки_
 	<img src="/imgs/sketches/sc3_2.jpg" width="200"/>
 </p>	
 
-<img src="/imgs/c1_2/10_2.jpg" width="700"/>
-<img src="/imgs/c1_2/11_2.jpg" width="700"/>
-
 <p>
 	<img src="/imgs/c1_2/2.jpg" width="300"/>
 	<img src="/imgs/c1_2/3.jpg" width="300"/>
 	<img src="/imgs/c1_2/5.jpg" width="300"/>
 </p>
+
+<img src="/imgs/c1_2/10_2.jpg" width="700"/>
+<img src="/imgs/c1_2/11_2.jpg" width="700"/>
 
 <p>
 	<img src="/imgs/c1_2/6.jpg" width="300"/>
