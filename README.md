@@ -335,7 +335,7 @@ _Конструкция робота без оболочки_
 
 <p>
 	<img src="/imgs/c1_2/6.jpg" width="300"/>
-	<img src="/imgs/c1_2/7.jpg" width="400"/>
+	<img src="/imgs/c1_2/7.jpg" width="350"/>
 </p>
 
 <img src="/imgs/c1_2/9.jpg" width="700"/>
