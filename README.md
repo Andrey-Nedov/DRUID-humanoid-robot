@@ -47,7 +47,11 @@ _! На странице много графики, анимаций, нужно
 
 [inst @druid_robotics](https://www.instagram.com/druid_robotics/)
 
-<img src="/imgs/c1_2/1.jpg" width="700"/>
+<img src="/imgs/c1_2/1_2.jpg" width="800"/>
+<!-- <p>
+	<img src="/imgs/c1_2/10.jpg" width="400"/>
+	<img src="/imgs/c1_2/11.jpg" width="400"/>
+</p> -->
 
 Проект посвящён разработке антропоморфного робота с функционалом промоутера, позволяющим роботу ориентироваться и безопасно перемещаться в социальных пространствах и взаимодействовать с людьми, выполняя задачи промоутинга и клиент-сервиса.
 
@@ -321,13 +325,20 @@ _Конструкция робота без оболочки_
 </p>	
 
 <p>
-	<img src="/imgs/c1/1.jpg" width="300"/>
-	<img src="/imgs/c1/2.jpg" width="300"/>
-	<img src="/imgs/c1/3.jpg" width="300"/>
-<!-- 	<img src="/imgs/c1/4.jpg" width="200"/> -->
-	<img src="/imgs/c1/c1_1_full-hd.png" width="900"/>
-	<img src="/imgs/c1/vot.png" width="900"/>
+	<img src="/imgs/c1_2/2.jpg" width="300"/>
+	<img src="/imgs/c1_2/3.jpg" width="300"/>
+	<img src="/imgs/c1_2/5.jpg" width="300"/>
 </p>
+
+<p>
+	<img src="/imgs/c1_2/6.jpg" width="300"/>
+	<img src="/imgs/c1_2/7.jpg" width="300"/>
+</p>
+
+<!--	<img src="/imgs/c1/6.jpg" width="300"/>
+	<img src="/imgs/c1/4.jpg" width="200"/>
+	<img src="/imgs/c1/c1_1_full-hd.png" width="900"/>
+	<img src="/imgs/c1/vot.png" width="900"/>  -->
 
 
 ### Оболочка
