@@ -246,6 +246,12 @@ _Тестируем правую руку:_
 
 <img src="/imgs/video/mov360.gif" width="300"/>
 
+_Текущий результат_
+
+<img src="/imgs/photos/next.jpg" width="400"/>
+
+_Конструкция всё ещё в работе..._
+
 
 <br/><br/><br/>
 
