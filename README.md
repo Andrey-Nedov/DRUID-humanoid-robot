@@ -1,5 +1,5 @@
 # Человекоподобный клиент-сервисный робот / Humanoid service robot
-<img src="/imgs/c1_2/druid.png" width="800"/>
+<img src="/imgs/c1_2/druid2.png" width="800"/>
 
 *01.07.2020 - 31.07.2021*  [![Generic badge](https://img.shields.io/badge/Status-Active-green.svg)](https://shields.io/)<br/>
 
@@ -171,7 +171,7 @@ _! На странице много графики, анимаций, нужно
 
 Началась работа с моделирования кисти которая предполагала почти полное копирование подвижности человеческой кисти.
 
-<img src="/imgs/renders/hand.jpg" width="600"/>
+<img src="/imgs/renders/hands.png" width="700"/>
 
 Версия за версией прошло лето
 
