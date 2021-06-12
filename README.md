@@ -244,7 +244,7 @@ _Тестируем правую руку:_
 
 <img src="/imgs/video/mov360.gif" width="300"/>
 
-_Текущий результат_
+_Текущий результат:_
 
 <img src="/imgs/photos/full.jpg" width="400"/>
 
