@@ -246,7 +246,7 @@ _Тестируем правую руку:_
 
 _Текущий результат_
 
-<img src="/imgs/photos/full.jpg" width="300"/>
+<img src="/imgs/photos/full.jpg" width="400"/>
 
 _Конструкция в работе..._
 
