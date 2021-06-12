@@ -198,7 +198,7 @@ _Также отсняли небольшое промо для соцсетей
   <img src="/imgs/renders/5.png" width="350"/>
 </p>
 
-<img src="/imgs/renders/arms.png" width="700"/>
+<img src="/imgs/renders/2.png" width="700"/>
 
 Так это выглядело на модели в сборе с платформой и центральной опорой
 
@@ -236,7 +236,9 @@ _Промежуточный результат для теста кисти:_
 
 Далее была собрана вся рука целиком и протестирована вместе с аппаратным обеспечением, о котором расскажу в следующих разделах.
 
-<img src="/imgs/renders/whole_new_hand.jpg" width="600"/>
+<img src="/imgs/renders/whole_new_hand.jpg" width="700"/>
+
+<img src="/imgs/renders/arms.png" width="700"/>
 
 _Тестируем правую руку:_
 
@@ -244,7 +246,7 @@ _Тестируем правую руку:_
 
 _Текущий результат_
 
-<img src="/imgs/photos/next.jpg" width="300"/>
+<img src="/imgs/photos/full.jpg" width="300"/>
 
 _Конструкция в работе..._
 
