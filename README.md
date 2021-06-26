@@ -16,7 +16,7 @@
 - Разработка, моделирование и рендеринг дизайн-концепта
 - Моделирование обшивки
 
-Проект является моей [(Andrey-Nedov-is-a-human)](https://github.com/Andrey-Nedov-is-a-human) дипломной работой по окончании 4-го курса ИТ-факультета [Московского Политехнического Университета](https://new.mospolytech.ru/en/). Образовательная программа [киберфизические системы](https://old.mospolytech.ru/index.php?id=5318).
+Проект является моей [(Andrey-Nedov-is-a-human)](https://github.com/Andrey-Nedov-is-a-human) дипломной работой по окончании 4-го курса ИТ-факультета [Московского Политехнического Университета](https://new.mospolytech.ru/en/). Образовательная программа ["Киберфизические системы"](https://old.mospolytech.ru/index.php?id=5318).
 
 Научный руководитель [Идиатуллов Тимур Тофикович](https://old.mospolytech.ru/index.php?id=6714).
 
