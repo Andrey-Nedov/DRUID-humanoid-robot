@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<robot name="green_box" xmlns:xacro="http://www.ros.org/wiki/xacro">
+		<link name="base_link">
+	    <visual>
+			<origin rpy="0 0 0" xyz="0 0 0.3"/>
+			<geometry>
+				<box size="0.5 0.5 0.5"/>
+			</geometry>
+			<material name="green">
+    			<color rgba="0.1 1.0 0.1 1.0"/>
+  			</material>
+	    </visual>
+	</link>
+	<joint name="base_joint2" type="fixed">
+		<parent link="base_link"/>
+		<child link="base_scan"/>	 
+	</joint>
+	<link name="base_scan">
+		<!-- <visual>
+			<origin rpy="0 0 0" xyz="0 0 0"/>
+			<geometry>
+				<box size="0.2 0.2 0.2"/>
+			</geometry>
+			<material name="blue">
+    			<color rgba="0.1 0.1 1.0 1.0"/>
+  			</material>
+		</visual> -->
+	</link> -->
+</robot>
