@@ -421,9 +421,9 @@ _launch-файл_
 <launch>
 	<param name="robot_description" command="cat $(find control)/urdf/turt_model.urdf" />
 	<node pkg="control" type="cmd.py" name = "cmd1" output ="screen"/>
-</launch> -->
+</launch> 
 ```
-
+-->
 _Результат_
 
 <img src="/imgs/renders/bot.gif" width="800"/>
