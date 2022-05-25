@@ -8,7 +8,7 @@
 1. [Andrey Nedov](https://github.com/Andrey-Nedov)
 - CTO
 - Software developmer
-- Hardware developmer
+- Hardware developmer 
 - Mechanical engineer
 
 2. [Alina Gorbunova](https://www.instagram.com/xhirchx/)
