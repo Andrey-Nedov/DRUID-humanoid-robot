@@ -5,7 +5,7 @@
 [![Generic badge](https://img.shields.io/badge/Status-Frozen-blue.svg)](https://shields.io/)<br/>
 
 <a name="team">*Команда/Team*</a>
-1. [Andrey Nedov](https://github.com/Andrey-Nedov-is-a-human)
+1. [Andrey Nedov](https://github.com/Andrey-Nedov)
 - CTO
 - Software developmer
 - Hardware developmer
@@ -14,9 +14,10 @@
 2. [Alina Gorbunova](https://www.instagram.com/xhirchx/)
 - Designer
 
-<!-- Проект посвящён разработке антропоморфного робота с функционалом промоутера, позволяющим роботу ориентироваться и безопасно перемещаться в социальном пространстве и взаимодействовать с людьми, выполняя задачи промоутинга и клиент-сервиса. -->
 
-The project is dedicated to the development of an anthropomorphic robot with the functionality of a promoter, which allows the robot to navigate and move safely in social space and interact with people, performing the tasks of promotion and customer service.
+<!-- Проект посвящён разработке антропоморфного робота с функционалом промоутера, позволяющим роботу ориентироваться и безопасно перемещаться в социальном пространстве и взаимодействовать с людьми, выполняя задачи промоутинга и клиент-сервиса. -->
+<br>
+This project is dedicated to the development of an anthropomorphic robot with the functionality of a promoter, which allows the robot to navigate and move safely in social space and interact with people, performing the tasks of promotion and customer service.
 
 <!-- Финансирует проект компания [Диджитал Репаблик](https://di-re.ru/) с целью дальнейшего производства серии. -->
 
