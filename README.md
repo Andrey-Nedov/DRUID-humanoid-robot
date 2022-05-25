@@ -9,7 +9,7 @@
 - CTO
 - Software developmer
 - Hardware developmer 
-- Mechanical engineer
+- Mechanical/CAD engineer
 
 2. [Alina Gorbunova](https://www.instagram.com/xhirchx/)
 - Designer of robots shell
