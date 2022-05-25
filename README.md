@@ -151,27 +151,37 @@ Result:
 
 <img src="/imgs/video/works_360.gif" width="300"/>
 
-## Съёмки промо
+## Promo video
 
-Для публикации в медиа съездили в DIY-магазни, закупили освещение, из дома взял камеру с линзами, отражатели и, в помещении финансирующей компании, отсняли небольшой проморолик по промежуточнуму результату.
+<!-- Для публикации в медиа съездили в DIY-магазни, закупили освещение, из дома взял камеру с линзами, отражатели и, в помещении финансирующей компании, отсняли небольшой проморолик по промежуточнуму результату. -->
+
+For publication in the media, we went to a DIY store, bought lighting, took a camera with lenses, reflectors from home and, in the premises of a financing company, filmed a small promo video on the intermediate result.
 
 [Youtube](https://www.youtube.com/watch?v=_gj3ynNgX4c)
 
 <!-- <img src="/imgs/promo/promo3_480.gif" width="700"/> -->
 
-Чтобы добиться от робота плавных движений использовал синусоидальные функции эксперементируя с фазами. Кстати, весь съёмочный день, это часов 5-6, робот катался без подзарядки.
+<!-- Чтобы добиться от робота плавных движений использовал синусоидальные функции эксперементируя с фазами. Кстати, весь съёмочный день, это часов 5-6, робот катался без подзарядки. -->
+
+To achieve smooth movements from the robot, I used sinusoidal functions experimenting with phases. By the way, the whole shooting day, it's 5-6 hours, the robot rode without recharging.
 
 <br/><br/><br/>
 
-# Центральная опора
+# Main support
 
-Центральная опора робота выполняет роль каркаса для всех компонентов системы аниматроники. Она выполнена из стального профиля толщиной 20мм методами резки и сварки металла, что обеспечивает прочность конструкции. 
+<!-- Центральная опора робота выполняет роль каркаса для всех компонентов системы аниматроники. Она выполнена из стального профиля толщиной 20мм методами резки и сварки металла, что обеспечивает прочность конструкции.  -->
+
+The main support of the robot works as a frame for all components of the animatronics system. It is made of a steel profile 20mm thick by cutting and welding metal, which ensures the strength of the structure.
 
 <img src="/imgs/renders/support.jpg" width="760"/>
 
-Для соединения отдельных частей опоры между собой, крепления опоры к платформе и установки оборудования используются болтовые соединения с самоконтрящимися гайками. По всей поверхности опоры были просверлены дополнительные отверстия для крепления компонентов системы аниматроники.
+<!-- Для соединения отдельных частей опоры между собой, крепления опоры к платформе и установки оборудования используются болтовые соединения с самоконтрящимися гайками. По всей поверхности опоры были просверлены дополнительные отверстия для крепления компонентов системы аниматроники. -->
 
-Для крепления опоры к платформе используется всего три болта, для крепления рук, используется по одному болту на каждую руку
+Bolted connections with self-locking nuts are used to connect the individual parts of the support to each other, fasten the support to the platform and install the equipment. Additional holes were drilled over the entire surface of the support for attaching the components of the animatronic system.
+
+<!-- Для крепления опоры к платформе используется всего три болта, для крепления рук, используется по одному болту на каждую руку -->
+
+To attach the support to the platform, only three bolts are used, for attaching the arms, one bolt is used for each arm
 
 <p>
   <img src="/imgs/photos/8.jpg" width="250"/>
@@ -181,37 +191,53 @@ Result:
 
 <br/><br/><br/>
 
-# Руки
+# Hands
 
 <img src="/imgs/photos/2_6_1500.jpg" width="700"/>
 
-Большое количество времени проекта ушло на разработку рук робота. Хронологически разработка кисти началась раньше разработки платоформы. Клиент-сервисному роботу руки нужны для жестикуляции во время общения с человеком. Вопрос насколько правдоподобно рука робота должна копировать подвижность человеческой на начало работы был открытым. В результате был пройден путь по упрощению конструкции до достижения баланса между простотой в изготовлении и функциональностью.
+<!-- Большое количество времени проекта ушло на разработку рук робота. Хронологически разработка кисти началась раньше разработки платоформы. Клиент-сервисному роботу руки нужны для жестикуляции во время общения с человеком. Вопрос насколько правдоподобно рука робота должна копировать подвижность человеческой на начало работы был открытым. В результате был пройден путь по упрощению конструкции до достижения баланса между простотой в изготовлении и функциональностью. -->
 
-Также стоит отметить моё желание попрактиковать моделирование и изготовление подвижной кисти для будущих проектов где подобная кисть, возможно, будет взаимодействовать с объектами реального мира.
+A lot of the project's time was spent on developing the robot's arms. Chronologically, the development of the brush began before the development of the platform. The client-service robot needs hands to gesticulate while communicating with a person. The question of how plausible the robot's hand should copy the mobility of a human at the beginning of work was open. As a result, a path has been taken to simplify the design to achieve a balance between ease of manufacture and functionality.
 
-Началась работа с моделирования кисти которая предполагала почти полное копирование подвижности человеческой кисти.
+<!-- Также стоит отметить моё желание попрактиковать моделирование и изготовление подвижной кисти для будущих проектов где подобная кисть, возможно, будет взаимодействовать с объектами реального мира. -->
+
+There was also a great desire to practice modeling and making a movable hand for future projects.
+
+<!-- Началась работа с моделирования кисти которая предполагала почти полное копирование подвижности человеческой кисти. -->
+
+Work began with the modeling of the hand, which assumed almost complete copying of the mobility of the human hand.
 
 <img src="/imgs/renders/hands.png" width="800"/>
 
-Версия за версией прошло лето
+<!-- Версия за версией прошло лето -->
+
+Summer passed in experiments
 
 <img src="/imgs/photos/old_hand 2.jpg" width="600"/>
 
-И в итоге получилась такая кисть
+<!-- И в итоге получилась такая кисть -->
+
+And in the end it turned out such a hand
 
 <img src="/imgs/photos/2_8_2.jpg" width="700"/>
 
-_Также отсняли небольшое промо для соцсетей_
+<!-- _Также отсняли небольшое промо для соцсетей_ -->
+
+_Also filmed a small promo for social networks_
 
 [Youtube](https://www.youtube.com/watch?v=D9OtJSoRQ10)
 
 <!-- <img src="/imgs/promo/hand_promo.gif" width="700"/>  -->
 
-За сгибание и разгибание кисти отвечает система тросов, соединённая с комплектом сервоприводов в предплечье.
+<!-- За сгибание и разгибание кисти отвечает система тросов, соединённая с комплектом сервоприводов в предплечье. -->
+
+Flexion and extension of the hand is controlled by a cable system connected to a set of servo drives in the forearm.
 
 <img src="/imgs/renders/1.png" width="600"/>
 
-Параллельно велась разработка предплечья и плеча копируя все основные двигательные функции человеческой руки.
+<!-- Параллельно велась разработка предплечья и плеча копируя все основные двигательные функции человеческой руки. -->
+
+In parallel, the development of the forearm and shoulder was carried out, copying all the main motor functions of the human hand.
 
 <p>
   <img src="/imgs/renders/4.png" width="350"/>
@@ -220,72 +246,102 @@ _Также отсняли небольшое промо для соцсетей
 
 <img src="/imgs/renders/2.png" width="700"/>
 
-Так это выглядело на модели в сборе с платформой и центральной опорой
+<!-- Так это выглядело на модели в сборе с платформой и центральной опорой -->
+
+This is how it looked on the model assembled with a platform and a main support
 
 <img src="/imgs/renders/3.png" width="450"/>
 
-Далее подбор и заказ подшипников и 3D-печать уже из более прочного PET-G пластика и сборка. Кстати, некоторые детали наружней оболочки кисти печатались из резиноподобного пластика FLEX.
+<!-- Далее подбор и заказ подшипников и 3D-печать уже из более прочного PET-G пластика и сборка. Кстати, некоторые детали наружней оболочки кисти печатались из резиноподобного пластика FLEX -->
 
+Further, the selection and ordering of bearings and 3D printing from more durable PET-G plastic and assembly. By the way, some details of the outer shell of the brush were printed from rubber-like FLEX plastic.
+ 
 <p>
   <img src="/imgs/photos/2_7.jpg" width="350"/>
   <img src="/imgs/photos/9.jpg" width="350"/>
   <img src="/imgs/photos/12_2.jpg" width="700"/>
 </p>
 
-_Промежуточный результат для теста кисти:_
+<!-- _Промежуточный результат для теста кисти:_ -->
+
+_Intermediate result for brush test:_
 
 <img src="/imgs/photos/2.png" width="700"/>
 
 <img src="/imgs/video/hand2.gif" width="700"/>
 
-#### Выводы по результатам теста кисти
+#### Conclusions from the hand test results
 
-Подвижность пальцев оставляла желать лучшего. Запястье смотрелось увереннее, но сервоприводы работали на пределе, что могло сказаться на долговечности узла. По итогам тестов было решено упростить конструкцию убрав из кисти все подвижные элементы, а для запястья поставить более сильные и надёжные приводы.
+<!-- Подвижность пальцев оставляла желать лучшего. Запястье смотрелось увереннее, но сервоприводы работали на пределе, что могло сказаться на долговечности узла. По итогам тестов было решено упростить конструкцию убрав из кисти все подвижные элементы, а для запястья поставить более сильные и надёжные приводы. -->
 
-Как итог была взята всё та же 3D-модель кисти, но с залитыми подвижными сочленениями и распечатана одной деталью. В последствии была смоделирована новая версия кисти, не предполагающая подвижности.
+The mobility of the fingers was bad. The wrist looked more confident, but the servos were working to the limit, which could affect the durability of the knot. Based on the results of the tests, it was decided to simplify the design by removing all moving elements from the hand, and to put stronger and more reliable drives for the wrist.
 
-Так выглядел робот на начало апреля 2021-го года
+<!-- Как итог была взята всё та же 3D-модель кисти, но с залитыми подвижными сочленениями и распечатана одной деталью. В последствии была смоделирована новая версия кисти, не предполагающая подвижности. -->
+
+As a result, the same 3D model of the brush was taken, but with filled movable joints and printed in one piece. Subsequently, a new version of the hand was modeled, which does not suppose mobility.
+
+<!-- Так выглядел робот на начало апреля 2021-го года -->
+
+This is what the robot looked like at the beginning of April 2021
 
 <img src="/imgs/photos/3.jpg" width="350"/>
 
-### Упрощение конструкции руки
+### Simplification of the design of the hand
 
-В итоге было решено что подвижность пальцев, как минимум в рабочем прототипе не обязательна. Была смоделирована своеобразная варежка, которой робот может вежливо указывать направление. В свою очередь в предплечье разместились более сильные приводы для запястья.
+<!-- В итоге было решено что подвижность пальцев, как минимум в рабочем прототипе не обязательна. Была смоделирована своеобразная варежка, которой робот может вежливо указывать направление. В свою очередь в предплечье разместились более сильные приводы для запястья. -->
+
+As a result, it was decided that the mobility of the fingers, at least in the working prototype, is not necessary. A kind of mitten was modeled, with which the robot can politely indicate the direction. In turn, stronger drives for the wrist were located in the forearm.
 
 <img src="/imgs/renders/new_hand.jpg" width="700"/>
 
 <img src="/imgs/renders/arms.png" width="700"/>
 
-Далее была собрана вся рука целиком и протестирована вместе с аппаратным обеспечением, о котором расскажу в следующих разделах.
+<!-- Далее была собрана вся рука целиком и протестирована вместе с аппаратным обеспечением, о котором расскажу в следующих разделах. -->
+
+Next, the whole arm was assembled and tested along with the hardware, which I will discuss in the following sections.
 
 <img src="/imgs/renders/whole_new_hand.jpg" width="700"/>
 
-_Тестирую правую руку:_
+<!-- _Тестирую правую руку:_ -->
+
+_Testing the right hand:_
 
 <img src="/imgs/video/mov360.gif" width="300"/>
 
-_Текущий результат:_
+<!-- _Текущий результат:_ -->
+
+_Current result:_
 
 <img src="/imgs/photos/full.jpg" width="400"/>
 
-_Конструкция в работе..._
+<!-- _Конструкция в работе..._ -->
+
+_Design in progress..._
 
 
 <br/><br/><br/>
 
-# Голова
+# Head
 
-Перед роботом стоят задачи локализации в пространстве, распознавания людей и их лиц, ведения голосового диалога, а ещё головой вращать и хорошо выглядеть. Для этих задач голова была укомплектована следующим образом:
+<!-- Перед роботом стоят задачи локализации в пространстве, распознавания людей и их лиц, ведения голосового диалога, а ещё головой вращать и хорошо выглядеть. Для этих задач голова была укомплектована следующим образом: -->
 
-Во-первых установлены три сервопривода, что даёт возможность голове вращаться по трём ортогональным осям.
+The robot will have to deal with the task of localization in space, recognizing people and their faces, conducting a voice dialogue, and also rotating its head and looking good. For these tasks, the head was equipped as follows:
+
+<!-- Во-первых установлены три сервопривода, что даёт возможность голове вращаться по трём ортогональным осям. -->
+
+Firstly, three servos are installed, which makes it possible for the head to rotate along three orthogonal axes.
 
 <img src="/imgs/renders/into_head.jpg" width="700"/>
 
-Облако точек и цветное изображение роботу предоставляет 3D-камера Intel RealSense D455 со встроенным IMU-датчиком. 
+<!-- Облако точек и цветное изображение роботу предоставляет 3D-камера Intel RealSense D455 со встроенным IMU-датчиком.  -->
+
+The point cloud and color image are provided to the robot by the Intel RealSense D455 3D camera with an integrated IMU sensor.
 
 <img src="/imgs/photos/d455.jpeg" width="400"/>
 
-Голос пользователя робот снимает при помощи направленного микрофона Boya BY-MM1. Благодаря системе распознавания лиц и способности робота вращать головой по трём осям микрофон может быть направлен на лицо конкретного пользователя с целью дальнейшего снятия голоса. Такой подход позволяет ещё до процесса постобработки звука фильтровать шумы, не относящиеся к голосу пользователя.
+<!-- Голос пользователя робот снимает при помощи направленного микрофона Boya BY-MM1. Благодаря системе распознавания лиц и способности робота вращать головой по трём осям микрофон может быть направлен на лицо конкретного пользователя с целью дальнейшего снятия голоса. Такой подход позволяет ещё до процесса постобработки звука фильтровать шумы, не относящиеся к голосу пользователя. -->
+
+The robot picks up the user's voice using the Boya BY-MM1 directional microphone. Thanks to the facial recognition system and the ability of the robot to rotate its head along three axes, the microphone can be directed to the face of a specific user in order to further pick up the voice. This approach allows you to filter out noise that is not related to the user's voice even before the audio post-processing process.
 
 <img src="/imgs/photos/mic.jpg" width="400"/>
 
@@ -294,7 +350,7 @@ _Конструкция в работе..._
 
 <br/><br/><br/>
 
-# Аппаратное обеспечение
+# Hardware
 
 Аппаратное обеспечеине робота можно логически поделить на несколько групп:
 1. Блоки управления сервоприводами
