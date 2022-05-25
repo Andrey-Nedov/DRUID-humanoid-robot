@@ -1,42 +1,39 @@
-# Человекоподобный клиент-сервисный робот / Humanoid service robot
+# Humanoid service robot
 <img src="/imgs/c1_2/druid2.png" width="800"/>
 
 <!-- *01.07.2020 - 31.07.2021*   -->
 [![Generic badge](https://img.shields.io/badge/Status-Frozen-blue.svg)](https://shields.io/)<br/>
 
 <a name="team">*Команда/Team*</a>
-1. [Андрей Недов](https://github.com/Andrey-Nedov-is-a-human)
-- Лидер проекта
-- Разработка аппаратного обеспечения
-- Разработка конструкции
-- Написание софта
+1. [Andrey Nedov](https://github.com/Andrey-Nedov-is-a-human)
+- CTO
+- Software developmer
+- Hardware developmer
+- Mechanical engineer
 
-2. [Алина Горбунова](https://www.instagram.com/xhirchx/)
-- Разработка, моделирование и рендеринг дизайн-концепта
-- Моделирование обшивки
+2. [Alina Gorbunova](https://www.instagram.com/xhirchx/)
+- Designer
 
-<!--Проект является моей [(Andrey-Nedov-is-a-human)](https://github.com/Andrey-Nedov-is-a-human) дипломной работой по окончании 4-го курса ИТ-факультета [Московского Политехнического Университета](https://new.mospolytech.ru/en/). Образовательная программа ["Киберфизические системы"](https://old.mospolytech.ru/index.php?id=5318).
+<!-- Проект посвящён разработке антропоморфного робота с функционалом промоутера, позволяющим роботу ориентироваться и безопасно перемещаться в социальном пространстве и взаимодействовать с людьми, выполняя задачи промоутинга и клиент-сервиса. -->
 
-Научный руководитель [Идиатуллов Тимур Тофикович](https://old.mospolytech.ru/index.php?id=6714).
+The project is dedicated to the development of an anthropomorphic robot with the functionality of a promoter, which allows the robot to navigate and move safely in social space and interact with people, performing the tasks of promotion and customer service.
 
--->
+<!-- Финансирует проект компания [Диджитал Репаблик](https://di-re.ru/) с целью дальнейшего производства серии. -->
 
-Проект посвящён разработке антропоморфного робота с функционалом промоутера, позволяющим роботу ориентироваться и безопасно перемещаться в социальном пространстве и взаимодействовать с людьми, выполняя задачи промоутинга и клиент-сервиса.
+The project is financed by the Digital Republic company for further production.
 
-Финансирует проект компания [Диджитал Репаблик](https://di-re.ru/) с целью дальнейшего производства серии.
+<!-- _! На странице много графики, анимаций, нужно время на полную загрузку_ -->
 
-_! На странице много графики, анимаций, нужно время на полную загрузку_
+## Сontents
 
-## Содержание
-
-1. [О проекте](#О-проекте)
-2. [Платформа](#Платформа)
-3. [Центральная опора](#Центральная-опора)
-4. [Руки](#Руки)
-5. [Голова](#Голова)
-6. [Аппаратное обеспечение](#Аппаратное-обеспечение)
-7. [Дизайн и оболочка](#Дизайн-и-оболочка)
-8. [ПО робота](#ПО-робота)
+1. [About the project](#О-проекте)
+2. [Platform](#Платформа)
+3. [Main support](#Центральная-опора)
+4. [Hands](#Руки)
+5. [Head](#Голова)
+6. [Hardware](#Аппаратное-обеспечение)
+7. [Design and robot shell](#Дизайн-и-оболочка)
+8. [Software](#ПО-робота)
 
 # О проекте
 
