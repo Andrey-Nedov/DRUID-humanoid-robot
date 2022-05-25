@@ -409,7 +409,7 @@ The design of the robot was adjusted in advance to the parameters of an average 
 
 <!-- _Конструкция робота без оболочки_ -->
 
-_ Robot design without shell _
+_Robot design without shell_
 
 <img src="/imgs/renders/constr2.jpg" width="700"/>
 
@@ -549,7 +549,9 @@ _Облако точек с D455 в rviz:_
 --> 
 ### Detectron2
 
-Так же много экспериментов проводилось с _Detectron2_. Сначала я ставил проект и обрабатывал отдельные изображения тремя предобученными сетями, две реализуют instance segmentation - поиск, классификация и выделение маски знакомых объектов, и panoptic segmentation - сеть пытается отнести кажый пиксель изображения к какому-либо знакомому классу. Третья сеть делает предикт ключевых точек на теле изображенного человека.
+<!-- Так же много экспериментов проводилось с _Detectron2_. Сначала я ставил проект и обрабатывал отдельные изображения тремя предобученными сетями, две реализуют instance segmentation - поиск, классификация и выделение маски знакомых объектов, и panoptic segmentation - сеть пытается отнести кажый пиксель изображения к какому-либо знакомому классу. Третья сеть делает предикт ключевых точек на теле изображенного человека. -->
+
+Also many experiments were carried out with _Detectron2_. First, I set up the project and processed individual images with three pre-trained networks, two implement instance segmentation - searching, classifying and extracting a mask of familiar objects, and panoptic segmentation - the network tries to attribute each image pixel to a familiar class. The third network makes a prediction of key points on the body of the depicted person.
 
 <p>
  <img src="/imgs/software/2.jpg" width="400"/>
@@ -569,7 +571,9 @@ _Облако точек с D455 в rviz:_
  <img src="/imgs/software/6.jpg" width="200"/>
 </p>
 
-Далее написал скрипт для работы Detectron2 в реалтайме.
+<!-- Далее написал скрипт для работы Detectron2 в реалтайме. -->
+
+Next, I wrote a script for Detectron2 to work in real time.
 
 <p>
  <img src="/imgs/software/1.png" width="300"/>
@@ -581,43 +585,47 @@ _Облако точек с D455 в rviz:_
  <img src="/imgs/software/4.png" width="300"/>
 </p>
 
-Записи не сохранилось, как и самой системы, только кадры. Система оказалась слишком прожорливая для нашего железа и выдавала максимум 2-3 fps.
+<!-- Записи не сохранилось, как и самой системы, только кадры. Система оказалась слишком прожорливая для нашего железа и выдавала максимум 2-3 fps. -->
+
+<!-- The records were not preserved, as well as the system itself, only frames. The system turned out to be too gluttonous for our hardware and gave out a maximum of 2-3 fps.
 
 Было решено отказаться от Detectron2 и искать более специализированные менее ресурсоёмкие технологии.
 
 Сейчас мы открываем для себя большое количество софта от Intel оптимизированного под их аппаратные платформы Intel NUC, Intel RealSense, Intel Movidius, наш робот, напоминаю, оснащён всеми этими устройствами. Заявленая эффективность такого решения впечатляет, сейчас разбираемся с их инфраструктурой.
-
+ -->
 <br>
 <br>
 
-### Система распознавания ключевых точек на теле человека
+### System for recognition of key points on the human body
 
-Для распознавания ключевых точек вместо тяжелого Detectron2 я использовал технологию [Intel Skeleton Tracking](https://www.intelrealsense.com/skeleton-tracking/), оптимизированную под Intel NUC и Intel RealSense, которую можно ещё и ускорить, добавив дополнительные вычислительные ядра в Intel Neural Compute Stick 2. Как будет применена технология в нашем проекте и будет ли она применена вообще я ещё не знаю, но не опробовать её, имея на руках 3D-камеру и всё сопутствующее аппаратное обеспечение, я не могу.
+<!-- Для распознавания ключевых точек вместо тяжелого Detectron2 я использовал технологию [Intel Skeleton Tracking](https://www.intelrealsense.com/skeleton-tracking/), оптимизированную под Intel NUC и Intel RealSense, которую можно ещё и ускорить, добавив дополнительные вычислительные ядра в Intel Neural Compute Stick 2. Как будет применена технология в нашем проекте и будет ли она применена вообще я ещё не знаю, но не опробовать её, имея на руках 3D-камеру и всё сопутствующее аппаратное обеспечение, я не могу. -->
 
-_Демо работы системы распознавания ключевых точек Intel NUC 115 + RealSense D455:_
+To recognize key points, instead of the heavy Detectron2, I used [Intel Skeleton Tracking](https://www.intelrealsense.com/skeleton-tracking/) technology, optimized for Intel NUC and Intel RealSense, which can also be accelerated by adding additional computing cores on an Intel Neural Compute Stick 2.
+
+<!-- _Демо работы системы распознавания ключевых точек Intel NUC 115 + RealSense D455:_ -->
+
+_Demo of the Intel NUC 115 + RealSense D455 keypoint recognition system:_
 
 <img src="/imgs/video/key.gif" width="700"/>
 
-Замечание: изображение является проекцией трёхмерного облака точек, а чёрные области - это зоны недоступные для расчёта глубины ввиду или слишком маленького расстояния до камеры, или того что зона находится за другим объектом.
+<!-- Как можно заметить система работает хорошо и бодро, 13-16 fps стабильно.  -->
 
-Как можно заметить система работает хорошо и бодро, 13-16 fps стабильно. 
-
-Чуть позже попробую всё это дело ускорить при помощи Intel Neural Compute Stick 2.
+As you can see, the system works well and cheerfully, 13-16 fps is stable.
 
 <br>
 <br>
 
-### Система распознавания лиц
+### Face recognition system
 
-Так же было решено опробовать различные технологии распознавания лиц чтобы робот, как минимум, мог направлять голову в сторону лица человека.
+<!-- Так же было решено опробовать различные технологии распознавания лиц чтобы робот, как минимум, мог направлять голову в сторону лица человека. -->
 
-_Скрипт для распознавания лиц с 68 ключевыми точками:_
+It was also decided to try out various face recognition technologies so that the robot could at least point its head in the direction of a person's face.
+
+<!-- _Скрипт для распознавания лиц с 68 ключевыми точками:_ -->
+
+_Script for face recognition with 68 key points:_
 
  <img src="/imgs/software/my_face.gif" width="700"/>
- 
-Запускалась на ноутбуке с Intel Core i5-8256U, 8 Гб RAM и Intel UHD Graphics 620.
-
-Далее система была интегрирована на аппаратное обеспечение робота с камерой RealSense D455.
 
 <img src="/imgs/photos/face_222.png" width="500"/>
 
