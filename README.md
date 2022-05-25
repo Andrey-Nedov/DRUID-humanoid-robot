@@ -587,11 +587,13 @@ Next, I wrote a script for Detectron2 to work in real time.
 
 <!-- Записи не сохранилось, как и самой системы, только кадры. Система оказалась слишком прожорливая для нашего железа и выдавала максимум 2-3 fps. -->
 
-<!-- The records were not preserved, as well as the system itself, only frames. The system turned out to be too gluttonous for our hardware and gave out a maximum of 2-3 fps.
+The records were not preserved, as well as the system itself, only frames. The system turned out to be too gluttonous for our hardware and gave out a maximum of 2-3 fps.
 
-Было решено отказаться от Detectron2 и искать более специализированные менее ресурсоёмкие технологии.
+<!-- Было решено отказаться от Detectron2 и искать более специализированные менее ресурсоёмкие технологии. -->
 
-Сейчас мы открываем для себя большое количество софта от Intel оптимизированного под их аппаратные платформы Intel NUC, Intel RealSense, Intel Movidius, наш робот, напоминаю, оснащён всеми этими устройствами. Заявленая эффективность такого решения впечатляет, сейчас разбираемся с их инфраструктурой.
+It was decided to abandon Detectron2 and look for more specialized less resource-intensive technologies.
+
+<!-- Сейчас мы открываем для себя большое количество софта от Intel оптимизированного под их аппаратные платформы Intel NUC, Intel RealSense, Intel Movidius, наш робот, напоминаю, оснащён всеми этими устройствами. Заявленая эффективность такого решения впечатляет, сейчас разбираемся с их инфраструктурой.
  -->
 <br>
 <br>
