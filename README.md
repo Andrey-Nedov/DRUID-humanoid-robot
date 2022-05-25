@@ -352,11 +352,15 @@ The robot picks up the user's voice using the Boya BY-MM1 directional microphone
 
 # Hardware
 
-Аппаратное обеспечеине робота можно логически поделить на несколько групп:
+<!-- Аппаратное обеспечеине робота можно логически поделить на несколько групп:
 1. Блоки управления сервоприводами
-2. Вычислительные модули
+2. Вычислительные модули -->
 
-### Блоки управления сервоприводами
+Robot hardware can be logically divided into several groups:
+1. Servo motors control units
+2. Computing units
+
+### Servo motors control units
 
 <img src="/imgs/renders/into_blocks.jpg" width="600"/>
 <p>
@@ -364,42 +368,58 @@ The robot picks up the user's voice using the Boya BY-MM1 directional microphone
   <img src="/imgs/photos/2_4.jpg" width="250"/>
 </p>
 
-Работу всех сервоприводов робота обеспечивают два модуля: 
+<!-- Работу всех сервоприводов робота обеспечивают два модуля: 
 1. _Servo control unit_, который содержит в себе два контроллера Arduino Nano (один для рук, один для шеи), два шестнадцатиканальных драйвера сервоприводов, собственная плата питания и преобразователь напряжения для питания приводов шейного отдела.
-2. _Converter unit_, в котором укомплектованы 6 преобразователей питания с максимальным выходным током до 9 ампер на каждом. Все преобразователи отрегулированы на разное напряжение в зависимости от питаемых ими приводов.
+2. _Converter unit_, в котором укомплектованы 6 преобразователей питания с максимальным выходным током до 9 ампер на каждом. Все преобразователи отрегулированы на разное напряжение в зависимости от питаемых ими приводов. -->
+
+The operation of all robot servos is provided by two modules:
+1. _Servo motor control unit_, which contains two Arduino Nano controllers (one for the arms, one for the neck), two sixteen-channel servo drivers, its own power board and a voltage converter to power the neck drives.
+2. _Converter unit_, which is equipped with 6 power converters with a maximum output current of up to 9 amperes each. All converters are adjusted to different voltages depending on the drives they feed.
 
 
 
-### Вычислительные модули
+### Computing units
 
-Основной вычислительный блок представлен компактным компьютером iRU NUC 115 на базе Intel Core i5 c 16-ю гигабайтами оперативной памяти и процессорной графикой Intel Iris Plus Graphics 655.
+<!-- Основной вычислительный блок представлен компактным компьютером iRU NUC 115 на базе Intel Core i5 c 16-ю гигабайтами оперативной памяти и процессорной графикой Intel Iris Plus Graphics 655. -->
+
+The main computing unit is represented by a compact iRU NUC 115 computer based on Intel Core i5 with 16 gigabytes of RAM and Intel Iris Plus Graphics 655 processor graphics.
 
 <img src="/imgs/renders/pc.jpg" width="600"/>
 <img src="/imgs/photos/2_23.jpg" width="600"/>
 
-Для ускорения операций обработки изображений дополнительно были закуплены два процессора машинного зрения (VPU) на базе архитектуры Intel Movidius Myriad X.
+<!-- Для ускорения операций обработки изображений дополнительно были закуплены два процессора машинного зрения (VPU) на базе архитектуры Intel Movidius Myriad X. -->
+
+To speed up image processing operations, two additional machine vision processors (VPUs) based on the Intel Movidius Myriad X architecture were purchased.
 
 <img src="/imgs/photos/stick.jpeg" width="400"/>
 
-*Репозиторий в работе... Далее в этом разделе расскажу про все блоки в отдельности*
+<!-- *Репозиторий в работе... Далее в этом разделе расскажу про все блоки в отдельности* -->
+
+*Repository in progress... Further in this section I will talk about all the blocks separately*
 
 
 
 <br/><br/><br/>
 
-# Дизайн и оболочка
+# Design and robot shell
 
-Стоит отметить, что конструкцию робота я заранее подгонял под параметры среднего взрослого мужского тела, по этому после обшивки робота оболочкой должен был получиться достаточно пропорциональный силует. 
+<!-- Стоит отметить, что конструкцию робота я заранее подгонял под параметры среднего взрослого мужского тела, по этому после обшивки робота оболочкой должен был получиться достаточно пропорциональный силует.  -->
 
-_Конструкция робота без оболочки_
+The design of the robot was adjusted in advance to the parameters of an average adult male body, so after covering the robot with a shell, a fairly proportional silhouette should have been obtained.
+
+<!-- _Конструкция робота без оболочки_ -->
+
+_ Robot design without shell _
 
 <img src="/imgs/renders/constr2.jpg" width="700"/>
 
-### Дизайн-концепт
+### Design-concept
 
-В начале второго семестра я закинул агитку на факультет дизайна Московского Политеха. Откликнулась очень талантливая и активная [Алина Горбунова](#team) с направления промышленного дизайна. Мы начали воплощать дизайн оболочки робота поверх уже имеющегося конструктива.
+<!-- После многих встреч, долгих разговоров и десятков эскизов мы с [Алиной](#team) выработали видение дизайна робота, которое чуть позже было воплощено ей в дизайн-концепт. -->
 
-После многих встреч, долгих разговоров и десятков эскизов мы с [Алиной](#team) выработали видение дизайна робота, которое чуть позже было воплощено ей в дизайн-концепт.
+<!-- Было выработанно видение дизайна робота, которое чуть позже было воплощено в дизайн-концепт. -->
+
+A vision of the design of the robot was developed, which was later embodied in a design concept.
 
 <p>
 	<img src="/imgs/sketches/sc2_2.jpg" width="200"/>
@@ -432,15 +452,21 @@ _Конструкция робота без оболочки_
 	<img src="/imgs/c1/vot.png" width="900"/>  -->
 
 
-### Оболочка
+### Shell
 
-Далее стояла задача создать из смоделированных дизайнером поверхностей оболочки детали пригодные для вакуумной формовки. Тут уже работал я, совмещая поверхности с конструктивом, чтобы можно было ещё и собрать это всё.
+<!-- Далее стояла задача создать из смоделированных дизайнером поверхностей оболочки детали пригодные для вакуумной формовки. Тут уже работал я, совмещая поверхности с конструктивом, чтобы можно было ещё и собрать это всё. -->
 
-_Оболочка готова к изготовлению_
+The next task was to create parts suitable for vacuum molding from the shell surfaces modeled by the designer. It was necessary to combine the surfaces with the structure, so that it was possible to assemble it all.
+
+<!-- _Оболочка готова к изготовлению_ -->
+
+_ Shell is ready for production _
 
 <img src="/imgs/renders/cover_on.jpg" width="700"/>
 
-_DRUID в реальном цвете_
+<!-- _DRUID в реальном цвете_ -->
+
+_DRUID in real color_
 
 <img src="/imgs/renders/cover_on2.jpg" width="700"/>
 
@@ -449,14 +475,21 @@ _DRUID в реальном цвете_
 
 <br/><br/><br/>
 
-# ПО робота
+# Software
 
-Программное обеспечение робота, естественно, должно разрабатываться непрерывно. Добовление нового функционала, исправление ошибок. 
-Чтобы начать написание ПО нужно понимать чего мы хотим, и к какому сроку. Поскольку сроки на этот MVP, прямо скажем, поджимают, в качестве программы минимум было решено реализовать примитивную логику движения робота с обходом препятствий (пока без локализации и планирования пути) ориентируясь на данные с 3D-камеры.
+<!-- Программное обеспечение робота, естественно, должно разрабатываться непрерывно. Добовление нового функционала, исправление ошибок. 
+Чтобы начать написание ПО нужно понимать чего мы хотим, и к какому сроку. Поскольку сроки на этот MVP, прямо скажем, поджимают, в качестве программы минимум было решено реализовать примитивную логику движения робота с обходом препятствий (пока без локализации и планирования пути) ориентируясь на данные с 3D-камеры. -->
 
-В качестве основы для операционной системы робота было решено использовать ROS версии Noetic.
+The software of the robot, of course, must be developed continuously. Adding new functionality, fixing bugs.
+To start writing software, you need to understand what we want, and by what date. Since the deadlines for this MVP, frankly, are running out, as a minimum program, it was decided to implement the primitive logic of the robot’s movement with obstacle avoidance (so far without localization and path planning) based on data from a 3D camera.
 
-_Архитектура системы:_
+<!-- В качестве основы для операционной системы робота было решено использовать ROS версии Noetic. -->
+
+As a basis for the operating system of the robot, it was decided to use the ROS version of Noetic.
+
+<!-- _Архитектура системы:_ -->
+
+_System architecture:_
 
 <img src="/imgs/docs/OS.png" width="600"/>
 
