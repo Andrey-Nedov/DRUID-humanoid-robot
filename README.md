@@ -4,7 +4,7 @@
 <!-- *01.07.2020 - 31.07.2021*   -->
 [![Generic badge](https://img.shields.io/badge/Status-Frozen-blue.svg)](https://shields.io/)<br/>
 
-<a name="team">*Команда/Team*</a>
+<a name="team">*The team*</a>
 1. [Andrey Nedov](https://github.com/Andrey-Nedov)
 - CTO
 - Software developmer
@@ -27,16 +27,16 @@ The project is financed by the Digital Republic company for further production.
 
 ## Сontents
 
-1. [About the project](#О-проекте)
-2. [Platform](#Платформа)
-3. [Main support](#Центральная-опора)
-4. [Hands](#Руки)
-5. [Head](#Голова)
-6. [Hardware](#Аппаратное-обеспечение)
-7. [Design and robot shell](#Дизайн-и-оболочка)
-8. [Software](#ПО-робота)
+1. [About the project](#About-the-project)
+2. [Platform](#Platform)
+3. [Main support](#Main-support)
+4. [Hands](#Hand)
+5. [Head](#Head)
+6. [Hardware](#Hardware)
+7. [Design and robot shell](#Design-and-robot-shell)
+8. [Software](#Software)
 
-# О проекте
+# About the project
 
 [inst @druid_robotics](https://www.instagram.com/druid_robotics/)
 
@@ -46,32 +46,35 @@ The project is financed by the Digital Republic company for further production.
 	<img src="/imgs/c1_2/11.jpg" width="400"/>
 </p> -->
 
-Проект посвящён разработке антропоморфного робота с функционалом промоутера, позволяющим роботу ориентироваться и безопасно перемещаться в социальных пространствах и взаимодействовать с людьми, выполняя задачи промоутинга и клиент-сервиса.
+<!-- Предпосылкой для старта проекта стало активное развитие сегмента сервисной робототехники, нацеленной на взаимодействие робота с человеком. Всё чаще на задачи промоутинга и клиент-сервиса ставят роботов, в связи с чем на рынке робототехники образовалась слабо заполненная ниша. Проект призван наполнить данную нишу продуктом, решающим основные проблемы рынка и создать на нём конкурентную среду. -->
 
-Предпосылкой для старта проекта стало активное развитие сегмента сервисной робототехники, нацеленной на взаимодействие робота с человеком. Всё чаще на задачи промоутинга и клиент-сервиса ставят роботов, в связи с чем на рынке робототехники образовалась слабо заполненная ниша. Проект призван наполнить данную нишу продуктом, решающим основные проблемы рынка и создать на нём конкурентную среду.
+The prerequisite for the start of this project was the active expansion of the segment of service robotics, aimed at the interaction of a robot with people. Increasingly, robots are assigned to the tasks of promotion and customer service, and therefore a poorly filled space has formed in the robotics market. The project is designed to fill this space with a product that solves the main problems of the market and creates a competitive environment on it.
 
-На текущем этапе своего развития Россия – это развивающаяся страна с высокообразованным населением, низкой стоимостью комплектующих, доступом к большому количеству различных поставщиков, что позволяет создавать роботов, конкурирующих на рынке с меньшими затратами.
+<!-- Учитывая недостатки конкурентов и появившиеся на рынке новые технологические решения для более эффективной работы с системами компьютерного зрения и машинного обучения, такие как Intel RealSense, Intel NUC, Intel Movidius предполагается, что есть хорошая возможность занять часть ниши на новом быстроразвивающемся рынке клиент-сервисной робототехники, создав антропоморфного робота-промоутера, в перспективе способного решать бизнес-задачи по обслуживанию клиентов. -->
 
-На данный момент рынок сервисных роботов-промоутеров представлен такими компаниями как SoftBank Robotics с человекоподобным роботом Pepper, Promobot с их одноимённым роботом, роботом REEM от испанской компании PAL robotics и некоторых других игроков.
-
-Учитывая недостатки конкурентов и появившиеся на рынке новые технологические решения для более эффективной работы с системами компьютерного зрения и машинного обучения, такие как Intel RealSense, Intel NUC, Intel Movidius предполагается, что есть хорошая возможность занять часть ниши на новом быстроразвивающемся рынке клиент-сервисной робототехники, создав антропоморфного робота-промоутера, в перспективе способного решать бизнес-задачи по обслуживанию клиентов.
+Given the shortcomings of competitors and new technological solutions that have appeared on the market for more efficient work with computer vision and machine learning systems, such as Intel RealSense, Intel NUC, Intel Movidius, it is assumed that there is a good opportunity to take part in a niche in the new fast-growing market for client service robotics, by creating an anthropomorphic robot-promoter, capable of solving customer service business problems in the future.
 
 
-# Платформа
+# Platform
 
 <img src="/imgs/photos/2_3_1500.jpg" width="600"/>
 
-## Конфигурация платформы
+## Platform configuration
 
-Для передвижения робот использует подвижную платформу, которая реализует схему трипода на омни-колесах. Такой подход, обеспечивая голономность системы, позволяет платформе, не совершая разворотов вокруг вертикальной оси, перемещаться в плоскости по любой заданной траектории.
+<!-- Для передвижения робот использует подвижную платформу, которая реализует схему трипода на омни-колесах. Такой подход, обеспечивая голономность системы, позволяет платформе, не совершая разворотов вокруг вертикальной оси, перемещаться в плоскости по любой заданной траектории. -->
+
+For movement, the robot uses a movable platform that implements a tripod scheme on omni-wheels. This approach, ensuring the holonomy of the system, allows the platform to move in the plane along any given trajectory without making turns around the vertical axis.
 
 <img src="/imgs/docs/result_vect.png" width="600"/>
 
-Результирующий вектор направления рассчитывается путём суммирования трёх векторов перемещения колёс платформы. Тогда управляющий сигнал для двигателей, нормированный в диапазоне от 0 до 255, будет рассчитываться как функция синуса от разницы полярного угла результирующего вектора и угла установки омни-колеса.
+<!-- Результирующий вектор направления рассчитывается путём суммирования трёх векторов перемещения колёс платформы. Тогда управляющий сигнал для двигателей, нормированный в диапазоне от 0 до 255, будет рассчитываться как функция синуса от разницы полярного угла результирующего вектора и угла установки омни-колеса. -->
 
-## Моделирование конструкиции платформы
+The resulting direction vector is calculated by summing the three displacement vectors of the platform wheels. Then the control signal for the engines, normalized in the range from 0 to 255, will be calculated as a function of the sine of the difference between the polar angle of the resulting vector and the angle of the omni-wheel.
 
-Моделирование конструкции производилось в Autodesk Inventor.
+
+## Platform frame modeling
+
+The frame was modeled in Autodesk Inventor.
 
 <img src="/imgs/renders/platform/pl1_anim.gif" width="600"/>
 
@@ -82,48 +85,69 @@ The project is financed by the Digital Republic company for further production.
   <img src="/imgs/docs/motor_f.png" width="120"/>
 </p>
 
-Основой конструкции платформы робота является рама из стального профиля толщиной 20 мм. 
-Рама создавалась методами резки и сварки металла и смоделирована таким образом, чтобы все компоненты платформы могли быть помещены внутрь неё. Частично вынесены наружу были только двигатели из-за их крупных габаритов. Пластиковые крышки вырезались на лазерном ЧПУ-станке.
+<!-- Основой конструкции платформы робота является рама из стального профиля толщиной 20 мм. 
+Рама создавалась методами резки и сварки металла и смоделирована таким образом, чтобы все компоненты платформы могли быть помещены внутрь неё. Частично вынесены наружу были только двигатели из-за их крупных габаритов. Пластиковые крышки вырезались на лазерном ЧПУ-станке. -->
 
-К раме прикреплены стальные пластины толщиной 4 мм, вырезанные на плазменной установке с ЧПУ, которые являются опорой для двигателей. Сталь такой толщины позволяет платформе выдерживать большие нагрузки, избегая деформаций.
+The basis of the design of the robot platform is a frame made of a steel profile 20 mm thick.
+The frame was created by cutting and welding metal and modeled in such a way that all platform components can be placed inside it. Only the engines were partially taken out because of their large dimensions. Plastic covers were cut on a CNC laser machine.
+
+<!-- К раме прикреплены стальные пластины толщиной 4 мм, вырезанные на плазменной установке с ЧПУ, которые являются опорой для двигателей. Сталь такой толщины позволяет платформе выдерживать большие нагрузки, избегая деформаций. -->
+
+Attached to the frame are 4mm thick CNC plasma-cut steel plates that support the motors. Steel of this thickness allows the platform to withstand heavy loads, avoiding deformations.
 
 <img src="/imgs/photos/2_3_1501.JPG" width="600"/> 
 
-### Система охлаждения
+### Cooling system
 
-Работа драйвера электродвигателя сопровождается выделением тепла, поэтому радиаторы драйверов двигателей нуждаются в дополнительном теплоотводе. Было принято решение создать систему охлаждения радиаторов.
+<!-- Работа драйвера электродвигателя сопровождается выделением тепла, поэтому радиаторы драйверов двигателей нуждаются в дополнительном теплоотводе. Было принято решение создать систему охлаждения радиаторов. -->
+
+The operation of the motor driver is accompanied by the release of heat, so the radiators of the motor drivers need an additional heat sink. It was decided to create a cooling system for radiators.
 
 <img src="/imgs/renders/platform/pl2_anim.gif" width="600"/> 
 
-Необходимые детали были изготовлены при помощи 3D-печати, собраны и установлены в платформу. Для изготовления воздуховодов использовался пластик PLA. Также в систему охлаждения был установлен датчик температуры, который собирает информацию о температуре выходящего потока воздуха.
+<!-- Необходимые детали были изготовлены при помощи 3D-печати, собраны и установлены в платформу. Для изготовления воздуховодов использовался пластик PLA. Также в систему охлаждения был установлен датчик температуры, который собирает информацию о температуре выходящего потока воздуха. -->
+
+The necessary parts were made using 3D printing, assembled and installed on the platform. For the manufacture of air ducts, PLA plastic was used. Also, a temperature sensor was installed in the cooling system, which collects information about the temperature of the outgoing air stream.
 
 <img src="/imgs/photos/cool_s.png" width="600"/> 
 
 
-## Состав компонентов 
+## Low-level components 
 
-В качестве основных двигателей были выбраны 60-ти ваттные двигатели постоянного тока с установленными на них червячными редукторами. Такая конструкция позволяет отвести корпус двигателей от внутренностей платформы освободив место для аккумулятора и других компонентов. С одной стороны червячные редукторы дают большое передаточное число, что сильно понижает сокрость и повышает момент на выходном валу. В нашем случае это очень кстати, ведь нашему роботу большие скорости ни к чему, а вот момент для того чтобы срываться с места очень нужен. С другой стороны червячные редукторы дают сильные потери энергии и не позволяют перетаскивать робота по поверхности.
+<!-- В качестве основных двигателей были выбраны 60-ти ваттные двигатели постоянного тока с установленными на них червячными редукторами. Такая конструкция позволяет отвести корпус двигателей от внутренностей платформы освободив место для аккумулятора и других компонентов. С одной стороны червячные редукторы дают большое передаточное число, что сильно понижает сокрость и повышает момент на выходном валу. В нашем случае это очень кстати, ведь нашему роботу большие скорости ни к чему, а вот момент для того чтобы срываться с места очень нужен. С другой стороны червячные редукторы дают сильные потери энергии и не позволяют перетаскивать робота по поверхности. -->
 
-В роли управляющего контроллера была использована плата _Arduino Mega 2560_ в связке с драйвером двигателей постоянного тока на базе чипа _L298_. Последняя схема может выдерживать ток до 15 апмер, значит наши нагрузки ей будут нипочём.
+As the main motors, 60-watt DC motors with worm gears installed on them were chosen. This design allows the engine body to be pulled away from the platform's innards, making room for the battery and other components. On the one hand, worm gears give a large gear ratio, which greatly reduces the speed and increases the torque on the output shaft. In our case, this is very useful, because our robot does not need high speeds, but the moment to take off is very necessary. On the other hand, worm gears give strong energy losses and do not allow dragging the robot over the surface.
 
-Дополнительное требование к платформе – возможность её использования независимо от тела робота. Такой подход не только даёт нам возможность отладки платформы на ранних стадиях разработки всего робота, но и использования платформы в других проектах. Для этого в системе платформы предусмотрен дополнительный одноплатный компьютер _Raspberry PI_, который может выступать в качестве управляющего блока, замены верхнему уровню робота.
+<!-- В роли управляющего контроллера была использована плата _Arduino Mega 2560_ в связке с драйвером двигателей постоянного тока на базе чипа _L298_. Последняя схема может выдерживать ток до 15 апмер, значит наши нагрузки ей будут нипочём. -->
 
-Питается система от 12-ти вольтового свинцово-кислотного аккумуятора ёмкостью 26 Ампер-часов. Хватает на 5-6 часов активности.
+The _Arduino Mega 2560_ board was used as a controller with a DC motor driver based on the _L298_ chip. The last circuit can withstand a current of up to 15 amps, which means that our loads will be nothing to it.
 
-## ПО платформы
+<!-- Дополнительное требование к платформе – возможность её использования независимо от тела робота. Такой подход не только даёт нам возможность отладки платформы на ранних стадиях разработки всего робота, но и использования платформы в других проектах. Для этого в системе платформы предусмотрен дополнительный одноплатный компьютер _Raspberry PI_, который может выступать в качестве управляющего блока, замены верхнему уровню робота. -->
 
-Управлять платформой можно как с персонального компьютера, так и со смартфона. Причём никакого стороннего ПО для этого ставить не надо. Стоит только подключиться к wi-fi сети DRUID которую раздаёт сама платформа и в браузере перейти по специальному IP-адресу. Платформа сама загрузит вам пульт прямо в браузере.
+An additional requirement for the platform is the ability to use it regardless of the robot body. This approach not only gives us the opportunity to debug the platform in the early stages of development of the entire robot, but also to use the platform in other projects. To do this, the platform system provides an additional single-board computer _Raspberry PI_, which can work as a control unit, replacing the upper level of the robot.
+
+<!-- Питается система от 12-ти вольтового свинцово-кислотного аккумуятора ёмкостью 26 Ампер-часов. Хватает на 5-6 часов активности. -->
+
+The system is powered by a 12-volt lead-acid battery with a capacity of 26 Ah. Enough for 5-6 hours of activity.
+
+## Software
+
+<!-- Управлять платформой можно как с персонального компьютера, так и со смартфона. Причём никакого стороннего ПО для этого ставить не надо. Стоит только подключиться к wi-fi сети DRUID которую раздаёт сама платформа и в браузере перейти по специальному IP-адресу. Платформа сама загрузит вам пульт прямо в браузере. -->
+
+The platform can be controlled both from a personal computer and from a smartphone. And you don’t need to install any third-party software for this. One has only to connect to the DRUID wi-fi network, which is distributed by the platform itself, and go to a special IP address in the browser. The platform itself will download the remote control directly in the browser.
 
 <img src="/imgs/docs/pl_soft.png" width="700"/>
 
-Система работает следующим образом. В платформе установлен wi-fi роутер, на котором развёрнута локальная сеть без доступа в интернет. Роутер перенаправляет запросы по специальному IP на порт сервера развёрнутого на Raspberry, который прослушивается HTTP сервером. Далее на устройство клиента скачивается пакет JS/HTML/CSS и медиа файлов, которые составляют пульт управления платформой. Фронт часть пульта адаптируется под соотношение сторон дисплея клиента и переключается между мобильной к десктопной версиями. Также веб-пульт поддерживает мультитач.
+<!-- Система работает следующим образом. В платформе установлен wi-fi роутер, на котором развёрнута локальная сеть без доступа в интернет. Роутер перенаправляет запросы по специальному IP на порт сервера развёрнутого на Raspberry, который прослушивается HTTP сервером. Далее на устройство клиента скачивается пакет JS/HTML/CSS и медиа файлов, которые составляют пульт управления платформой. Фронт часть пульта адаптируется под соотношение сторон дисплея клиента и переключается между мобильной к десктопной версиями. Также веб-пульт поддерживает мультитач. -->
+
+The system works as follows. The platform has a wi-fi router on which a local network is deployed without Internet access. The router forwards requests on a specific IP to the port of the server deployed on the Raspberry, which is listening on the HTTP server. Next, a package of JS/HTML/CSS and media files that make up the platform control panel is downloaded to the client's device. The front part of the remote adapts to the aspect ratio of the client's display and switches between mobile and desktop orientation. The web-remote also supports multi-touch.
 
 <p>
   <img src="/imgs/photos/1.png" width="200"/>
   <img src="/imgs/photos/1_1.png" width="550"/>
 </p>
 
-Как результат:
+Result:
 
 <img src="/imgs/video/works_360.gif" width="300"/>
 
