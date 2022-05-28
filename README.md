@@ -489,9 +489,9 @@ As a basis for the operating system of the robot, it was decided to use the ROS 
 
 <!-- _Архитектура системы:_ -->
 
-_System architecture:_
+<!-- _System architecture:_
 
-<img src="/imgs/docs/OS.png" width="600"/>
+<img src="/imgs/docs/OS.png" width="600"/> -->
 
 <!-- Главный блок принятия решений и roscore запускаются на главном вычислительном блоке iRU NUC 115. К центральному устройству подключены четыре платы Arduino, две от платформы, отвечают за управление моторами и сбор информации с сенсоров, и две от туловища, для упраления приводами рук и шеи. 
 
