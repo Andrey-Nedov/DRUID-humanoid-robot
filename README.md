@@ -11,7 +11,7 @@
 - Hardware developer 
 - Mechanical/CAD engineer
 
-2. [Alina Gorbunova](https://www.instagram.com/xhirchx/)
+2. [Alina Gorbunova](https://www.instagram.com/xhirchx/) 
 - Robot shell designer
 
 
