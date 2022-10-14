@@ -459,7 +459,7 @@ The next task was to create parts suitable for vacuum molding from the shell sur
 
 <!-- _Оболочка готова к изготовлению_ -->
 
-_ Shell is ready for production _
+_Shell is ready for production_
 
 <img src="/imgs/renders/cover_on.jpg" width="700"/>
 
