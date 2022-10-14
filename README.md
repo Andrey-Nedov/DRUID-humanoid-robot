@@ -6,7 +6,6 @@
 
 <a name="team">*The team*</a>
 1. [Andrey Nedov](https://github.com/Andrey-Nedov)
-- CTO
 - Software developer
 - Hardware developer 
 - Mechanical/CAD engineer
