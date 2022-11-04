@@ -611,7 +611,7 @@ _Demo of the Intel NUC 115 + RealSense D455 keypoint recognition system:_
 
 <!-- Как можно заметить система работает хорошо и бодро, 13-16 fps стабильно.  -->
 
-As you can see, the system works well and cheerfully, 13-16 fps is stable.
+As you can see, the system works well and cheerfully, 13-16 fps.
 
 <br>
 <br>
