@@ -51,7 +51,7 @@ The prerequisite for the start of this project was the active expansion of the s
 
 <!-- Учитывая недостатки конкурентов и появившиеся на рынке новые технологические решения для более эффективной работы с системами компьютерного зрения и машинного обучения, такие как Intel RealSense, Intel NUC, Intel Movidius предполагается, что есть хорошая возможность занять часть ниши на новом быстроразвивающемся рынке клиент-сервисной робототехники, создав антропоморфного робота-промоутера, в перспективе способного решать бизнес-задачи по обслуживанию клиентов. -->
 
-Given the shortcomings of competitors and new technological solutions that have appeared on the market for more efficient work with computer vision and machine learning systems, such as Intel RealSense, Intel NUC, Intel Movidius, it is assumed that there is a good opportunity to take part in a niche in the new fast-growing market for client service robotics, by creating an anthropomorphic robot-promoter, capable of solving customer service business problems in the future.
+Given the shortcomings of competitors and new technological solutions that have appeared on the market for more efficient work with computer vision and machine learning systems, such as Intel RealSense, Intel NUC, Intel Movidius, it is assumed that there is a good opportunity to take part in the new fast-growing market for client service robotics, by creating an anthropomorphic robot-promoter, capable of solving customer service business problems in the future.
 
 
 # Platform
@@ -68,7 +68,7 @@ For movement, the robot uses a movable platform that implements a tripod scheme 
 
 <!-- Результирующий вектор направления рассчитывается путём суммирования трёх векторов перемещения колёс платформы. Тогда управляющий сигнал для двигателей, нормированный в диапазоне от 0 до 255, будет рассчитываться как функция синуса от разницы полярного угла результирующего вектора и угла установки омни-колеса. -->
 
-The resulting direction vector is calculated by summing the three displacement vectors of the platform wheels. Then the control signal for the engines, normalized in the range from 0 to 255, will be calculated as a function of the sine of the difference between the polar angle of the resulting vector and the angle of the omni-wheel.
+The resulting direction vector is calculated by summing the three displacement vectors of the platform wheels. Then the control signal for the engines will be calculated as a function of the sine of the difference between the polar angle of the resulting vector and the angle of the omni-wheel.
 
 
 ## Platform frame modeling
@@ -154,7 +154,7 @@ Result:
 
 <!-- Для публикации в медиа съездили в DIY-магазни, закупили освещение, из дома взял камеру с линзами, отражатели и, в помещении финансирующей компании, отсняли небольшой проморолик по промежуточнуму результату. -->
 
-For publication in the media, we went to a DIY store, bought lighting, took a camera with lenses, reflectors from home and, in the premises of a financing company, filmed a small promo video on the intermediate result.
+Here is a small promotional video demonstrating the capabilities of the platform.
 
 [Youtube](https://www.youtube.com/watch?v=_gj3ynNgX4c)
 
@@ -162,7 +162,7 @@ For publication in the media, we went to a DIY store, bought lighting, took a ca
 
 <!-- Чтобы добиться от робота плавных движений использовал синусоидальные функции эксперементируя с фазами. Кстати, весь съёмочный день, это часов 5-6, робот катался без подзарядки. -->
 
-To achieve smooth movements from the robot, I used sinusoidal functions experimenting with phases. By the way, the whole shooting day, it's 5-6 hours, the robot rode without recharging.
+To achieve smooth platform movements, sinusoidal functions with fiber frequencies were used. By the way, the whole shooting day, it's 5-6 hours, the robot rode without recharging.
 
 <br/><br/><br/>
 
@@ -297,7 +297,7 @@ As a result, it was decided that the mobility of the fingers, at least in the wo
 
 <!-- Далее была собрана вся рука целиком и протестирована вместе с аппаратным обеспечением, о котором расскажу в следующих разделах. -->
 
-Next, the whole arm was assembled and tested along with the hardware, which I will discuss in the following sections.
+Next, the whole arm was assembled and tested along with the hardware, which will be discussed in the following sections.
 
 <img src="/imgs/renders/whole_new_hand.jpg" width="700"/>
 
@@ -334,7 +334,7 @@ Firstly, three servos are installed, which makes it possible for the head to rot
 
 <!-- Облако точек и цветное изображение роботу предоставляет 3D-камера Intel RealSense D455 со встроенным IMU-датчиком.  -->
 
-The point cloud and color image are provided to the robot by the Intel RealSense D455 3D camera with an integrated IMU sensor.
+The pointcloud and color image are provided to the robot by the Intel RealSense D455 3D camera with an integrated IMU sensor.
 
 <img src="/imgs/photos/d455.jpeg" width="400"/>
 
@@ -550,7 +550,7 @@ _Облако точек с D455 в rviz:_
 
 <!-- Так же много экспериментов проводилось с _Detectron2_. Сначала я ставил проект и обрабатывал отдельные изображения тремя предобученными сетями, две реализуют instance segmentation - поиск, классификация и выделение маски знакомых объектов, и panoptic segmentation - сеть пытается отнести кажый пиксель изображения к какому-либо знакомому классу. Третья сеть делает предикт ключевых точек на теле изображенного человека. -->
 
-Also many experiments were carried out with _Detectron2_. First, I set up the project and processed individual images with three pre-trained networks, two implement instance segmentation - searching, classifying and extracting a mask of familiar objects, and panoptic segmentation - the network tries to attribute each image pixel to a familiar class. The third network makes a prediction of key points on the body of the depicted person.
+Also many experiments were carried out with _Detectron2_. First, project was set up and processed individual images with three pre-trained networks, two implement instance segmentation - searching, classifying and extracting a mask of familiar objects, and panoptic segmentation - the network tries to attribute each image pixel to a familiar class. The third network makes a prediction of key points on the body of the depicted person.
 
 <p>
  <img src="/imgs/software/2.jpg" width="400"/>
@@ -572,7 +572,7 @@ Also many experiments were carried out with _Detectron2_. First, I set up the pr
 
 <!-- Далее написал скрипт для работы Detectron2 в реалтайме. -->
 
-Next, I wrote a script for Detectron2 to work in real time.
+Next, a script was written for Detectron2 to work in real time.
 
 <p>
  <img src="/imgs/software/1.png" width="300"/>
@@ -601,7 +601,7 @@ It was decided to abandon Detectron2 and look for more specialized less resource
 
 <!-- Для распознавания ключевых точек вместо тяжелого Detectron2 я использовал технологию [Intel Skeleton Tracking](https://www.intelrealsense.com/skeleton-tracking/), оптимизированную под Intel NUC и Intel RealSense, которую можно ещё и ускорить, добавив дополнительные вычислительные ядра в Intel Neural Compute Stick 2. Как будет применена технология в нашем проекте и будет ли она применена вообще я ещё не знаю, но не опробовать её, имея на руках 3D-камеру и всё сопутствующее аппаратное обеспечение, я не могу. -->
 
-To recognize key points, instead of the heavy Detectron2, I used [Intel Skeleton Tracking](https://www.intelrealsense.com/skeleton-tracking/) technology, optimized for Intel NUC and Intel RealSense, which can also be accelerated by adding additional computing cores on an Intel Neural Compute Stick 2.
+To recognize key points, instead of the heavy Detectron2, [Intel Skeleton Tracking](https://www.intelrealsense.com/skeleton-tracking/) technology цфы гыув, optimized for Intel NUC and Intel RealSense, which can also be accelerated by adding additional computing cores on an Intel Neural Compute Stick 2.
 
 <!-- _Демо работы системы распознавания ключевых точек Intel NUC 115 + RealSense D455:_ -->
 
@@ -611,7 +611,7 @@ _Demo of the Intel NUC 115 + RealSense D455 keypoint recognition system:_
 
 <!-- Как можно заметить система работает хорошо и бодро, 13-16 fps стабильно.  -->
 
-As you can see, the system works well and cheerfully, 13-16 fps.
+<!-- As you can see, the system works well and cheerfully, 13-16 fps. -->
 
 <br>
 <br>
