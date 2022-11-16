@@ -45,7 +45,7 @@ The project is financed by the Digital Republic company for further production.
 	<img src="/imgs/c1_2/11.jpg" width="400"/>
 </p> -->
 
-<!-- Предпосылкой для старта проекта стало активное развитие сегмента сервисной робототехники, нацеленной на взаимодействие робота с человеком. Всё чаще на задачи промоутинга и клиент-сервиса ставят роботов, в связи с чем на рынке робототехники образовалась слабо заполненная ниша. Проект призван наполнить данную нишу продуктом, решающим основные проблемы рынка и создать на нём конкурентную среду. -->
+<!-- Предпосылкой для  старта проекта стало активное развитие сегмента сервисной робототехники, нацеленной на взаимодействие робота с человеком. Всё чаще на задачи промоутинга и клиент-сервиса ставят роботов, в связи с чем на рынке робототехники образовалась слабо заполненная ниша. Проект призван наполнить данную нишу продуктом, решающим основные проблемы рынка и создать на нём конкурентную среду. -->
 
 The prerequisite for the start of this project was the active expansion of the segment of service robotics, aimed at the interaction of a robot with people. Increasingly, robots are assigned to the tasks of promotion and customer service, and therefore a poorly filled space has formed in the robotics market. The project is designed to fill this space with a product that solves the main problems of the market and creates a competitive environment on it.
 
