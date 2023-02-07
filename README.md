@@ -1,7 +1,7 @@
 # Humanoid service robot
 <img src="/imgs/c1_2/druid2.png" width="800"/>
 
-<!-- *01.07.2020 - 31.07.2021*   -->
+*01.07.2020 - 31.07.2021*
 [![Generic badge](https://img.shields.io/badge/Status-Frozen-blue.svg)](https://shields.io/)<br/>
 
 <a name="team">*The team*</a>
