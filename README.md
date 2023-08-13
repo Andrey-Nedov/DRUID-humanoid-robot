@@ -64,7 +64,7 @@ Given the shortcomings of competitors and new technological solutions that have 
 
 For movement, the robot uses a movable platform that implements a tripod scheme on omni-wheels. This approach, ensuring the holonomy of the system, allows the platform to move in the plane along any given trajectory without making turns around the vertical axis.
 
-<img src="/imgs/docs/result_vect.png" width="600"/>
+<!-- <img src="/imgs/docs/result_vect.png" width="600"/> -->
 
 <!-- Результирующий вектор направления рассчитывается путём суммирования трёх векторов перемещения колёс платформы. Тогда управляющий сигнал для двигателей, нормированный в диапазоне от 0 до 255, будет рассчитываться как функция синуса от разницы полярного угла результирующего вектора и угла установки омни-колеса. -->
 
