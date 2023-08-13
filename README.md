@@ -315,7 +315,7 @@ _Current result:_
 
 <!-- _Конструкция в работе..._ -->
 
-_Design in progress..._
+_in progress..._
 
 
 <br/><br/><br/>
