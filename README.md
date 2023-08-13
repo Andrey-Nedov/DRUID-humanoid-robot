@@ -62,7 +62,7 @@ Given the shortcomings of competitors and new technological solutions that have 
 
 <!-- Для передвижения робот использует подвижную платформу, которая реализует схему трипода на омни-колесах. Такой подход, обеспечивая голономность системы, позволяет платформе, не совершая разворотов вокруг вертикальной оси, перемещаться в плоскости по любой заданной траектории. -->
 
-For movement, the robot uses a movable platform that implements a tripod scheme on omni-wheels. This approach, ensuring the holonomy of the system, allows the platform to move in the plane along any given trajectory without making turns around the vertical axis.
+The robot uses a movable platform that implements a tripod scheme on omni-wheels. This approach, ensuring the holonomy of the system, allows the platform to move in the plane along any given trajectory without making turns around the vertical axis.
 
 <!-- <img src="/imgs/docs/result_vect.png" width="600"/> -->
 
