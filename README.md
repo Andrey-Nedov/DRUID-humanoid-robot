@@ -630,4 +630,4 @@ _Script for face recognition with 68 key points:_
 
 <img src="/imgs/photos/face_222.png" width="500"/>
 
-*Repository in progress...*
+*In progress...*
