@@ -135,11 +135,11 @@ The system is powered by a 12-volt lead-acid battery with a capacity of 26 Ah. E
 
 The platform can be controlled both from a personal computer and from a smartphone. And you don’t need to install any third-party software for this. One has only to connect to the DRUID wi-fi network, which is distributed by the platform itself, and go to a special IP address in the browser. The platform itself will download the remote control directly in the browser.
 
-<img src="/imgs/docs/pl_soft.png" width="700"/>
+<!-- <img src="/imgs/docs/pl_soft.png" width="700"/> -->
 
 <!-- Система работает следующим образом. В платформе установлен wi-fi роутер, на котором развёрнута локальная сеть без доступа в интернет. Роутер перенаправляет запросы по специальному IP на порт сервера развёрнутого на Raspberry, который прослушивается HTTP сервером. Далее на устройство клиента скачивается пакет JS/HTML/CSS и медиа файлов, которые составляют пульт управления платформой. Фронт часть пульта адаптируется под соотношение сторон дисплея клиента и переключается между мобильной к десктопной версиями. Также веб-пульт поддерживает мультитач. -->
 
-The system works as follows. The platform has a wi-fi router on which a local network is deployed without Internet access. The router forwards requests on a specific IP to the port of the server deployed on the Raspberry, which is listening on the HTTP server. Next, a package of JS/HTML/CSS and media files that make up the platform control panel is downloaded to the client's device. The front part of the remote adapts to the aspect ratio of the client's display and switches between mobile and desktop orientation. The web-remote also supports multi-touch.
+The system works as follows - the platform has a wi-fi router on which a local network is deployed without Internet access. The router forwards requests on a specific IP to the port of the server deployed on the Raspberry, which is listening on the HTTP server. Next, a package of JS/HTML/CSS and media files that make up the platform control panel is downloaded to the client's device. The front-end part of the remote adapts to the aspect ratio of the client's display and switches between mobile and desktop modes. The web-remote also supports multi-touch.
 
 <p>
   <img src="/imgs/photos/1.png" width="200"/>
