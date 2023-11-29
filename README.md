@@ -16,7 +16,7 @@
 
 <!-- Проект посвящён разработке антропоморфного робота с функционалом промоутера, позволяющим роботу ориентироваться и безопасно перемещаться в социальном пространстве и взаимодействовать с людьми, выполняя задачи промоутинга и клиент-сервиса. -->
 <br>
-This project is dedicated to the development of an anthropomorphic robot with the functionality of a promoter, which allows the robot to navigate and move safely in social space and interact with people, performing the tasks of promotion and customer service.
+This project is dedicated to the development of an anthropomorphic robot with the functionality of a promoter, which allows the robot to navigate and move safely in social space and interact with people, performing tasks of promotion and customer service.
 
 <!-- Финансирует проект компания [Диджитал Репаблик](https://di-re.ru/) с целью дальнейшего производства серии. -->
 
@@ -62,7 +62,7 @@ Given the shortcomings of competitors and new technological solutions that have 
 
 <!-- Для передвижения робот использует подвижную платформу, которая реализует схему трипода на омни-колесах. Такой подход, обеспечивая голономность системы, позволяет платформе, не совершая разворотов вокруг вертикальной оси, перемещаться в плоскости по любой заданной траектории. -->
 
-The robot uses a movable platform that implements a tripod scheme on omni-wheels. This approach, ensuring the holonomy of the system, allows the platform to move in the plane along any given trajectory without making turns around the vertical axis.
+The robot uses a wheel-based platform that implements a tripod scheme on omni-wheels. This approach, ensuring the holonomy of the system, allows the platform to move in the plane along any given trajectory without making turns around the vertical axis.
 
 <!-- <img src="/imgs/docs/result_vect.png" width="600"/> -->
 
