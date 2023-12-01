@@ -201,7 +201,7 @@ To attach the support to the platform, only three bolts are used, for attaching 
 
 <!-- Большое количество времени проекта ушло на разработку рук робота. Хронологически разработка кисти началась раньше разработки платоформы. Клиент-сервисному роботу руки нужны для жестикуляции во время общения с человеком. Вопрос насколько правдоподобно рука робота должна копировать подвижность человеческой на начало работы был открытым. В результате был пройден путь по упрощению конструкции до достижения баланса между простотой в изготовлении и функциональностью. -->
 
-A lot of the project's time was spent on developing the robot's arms. Chronologically, the development of the brush began before the development of the platform. The client-service robot needs hands to gesticulate while communicating with a person. The question of how plausible the robot's hand should copy the mobility of a human at the beginning of work was open. As a result, a path has been taken to simplify the design to achieve a balance between ease of manufacture and functionality.
+A lot of the project's time was spent on developing the robot's arms. Chronologically, the development of the hand began before the development of the platform. The client-service robot needs hands to gesticulate while communicating with a person. The question of how plausible the robot's hand should copy the mobility of a human at the beginning of work was open. As a result, a path has been taken to simplify the design to achieve a balance between ease of manufacture and functionality.
 
 <!-- Также стоит отметить моё желание попрактиковать моделирование и изготовление подвижной кисти для будущих проектов где подобная кисть, возможно, будет взаимодействовать с объектами реального мира. -->
 
@@ -258,7 +258,7 @@ This is how it looked on the model assembled with a platform and a main support
 
 <!-- Далее подбор и заказ подшипников и 3D-печать уже из более прочного PET-G пластика и сборка. Кстати, некоторые детали наружней оболочки кисти печатались из резиноподобного пластика FLEX -->
 
-Further, the selection and ordering of bearings and 3D printing from more durable PET-G plastic and assembly. By the way, some details of the outer shell of the brush were printed from rubber-like FLEX plastic.
+Further, the selection and ordering of bearings and 3D printing from more durable PET-G plastic and assembly. By the way, some details of the outer shell of the hand were printed from rubber-like FLEX plastic.
  
 <p>
   <img src="/imgs/photos/2_7.jpg" width="350"/>
@@ -268,7 +268,7 @@ Further, the selection and ordering of bearings and 3D printing from more durabl
 
 <!-- _Промежуточный результат для теста кисти:_ -->
 
-_Intermediate result for brush test:_
+_Intermediate result for hand test:_
 
 <img src="/imgs/photos/2.png" width="700"/>
 
@@ -278,11 +278,11 @@ _Intermediate result for brush test:_
 
 <!-- Подвижность пальцев оставляла желать лучшего. Запястье смотрелось увереннее, но сервоприводы работали на пределе, что могло сказаться на долговечности узла. По итогам тестов было решено упростить конструкцию убрав из кисти все подвижные элементы, а для запястья поставить более сильные и надёжные приводы. -->
 
-The mobility of the fingers was bad. The wrist looked more confident, but the servos were working to the limit, which could affect the durability of the knot. Based on the results of the tests, it was decided to simplify the design by removing all moving elements from the hand, and to put stronger and more reliable drives for the wrist.
+The mobility of the fingers was bad. The wrist looked better, but the servos were working to the limit, which could affect the durability of the equipment. Based on the results of the tests, it was decided to simplify the design by removing all moving elements from the hand, and to put stronger and more reliable drives for the wrist.
 
 <!-- Как итог была взята всё та же 3D-модель кисти, но с залитыми подвижными сочленениями и распечатана одной деталью. В последствии была смоделирована новая версия кисти, не предполагающая подвижности. -->
 
-As a result, the same 3D model of the brush was taken, but with filled movable joints and printed in one piece. Subsequently, a new version of the hand was modeled, which does not suppose mobility.
+As a result, the same 3D model of the hand was taken, but with filled movable joints and printed in one piece. Subsequently, a new version of the hand was modeled, which does not suppose mobility.
 
 <!-- Так выглядел робот на начало апреля 2021-го года -->
 
@@ -345,7 +345,7 @@ The pointcloud and color image are provided to the robot by the Intel RealSense 
 
 <!-- Голос пользователя робот снимает при помощи направленного микрофона Boya BY-MM1. Благодаря системе распознавания лиц и способности робота вращать головой по трём осям микрофон может быть направлен на лицо конкретного пользователя с целью дальнейшего снятия голоса. Такой подход позволяет ещё до процесса постобработки звука фильтровать шумы, не относящиеся к голосу пользователя. -->
 
-The robot picks up the user's voice using the Boya BY-MM1 directional microphone. Thanks to the facial recognition system and the ability of the robot to rotate its head along three axes, the microphone can be directed to the face of a specific user in order to further pick up the voice. This approach allows you to filter out noise that is not related to the user's voice even before the audio post-processing process.
+The robot listen to users voice using the Boya BY-MM1 directional microphone. Thanks to the facial recognition system and the ability of the robot to rotate its head along three axes, the microphone can be directed to the face of a specific user in order to further pick up the voice. This approach allows you to filter out noise that is not related to the user's voice even before the audio post-processing process.
 
 <img src="/imgs/photos/mic.jpg" width="400"/>
 
