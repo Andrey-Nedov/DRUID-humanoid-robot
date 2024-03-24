@@ -134,7 +134,7 @@ An additional requirement for the platform is the ability to use it regardless o
 
 The system is powered by a 12-volt lead-acid battery with a capacity of 26 Ah. Enough for 5-6 hours of activity.
 
-## Software
+## Platform software
 
 <!-- Управлять платформой можно как с персонального компьютера, так и со смартфона. Причём никакого стороннего ПО для этого ставить не надо. Стоит только подключиться к wi-fi сети DRUID которую раздаёт сама платформа и в браузере перейти по специальному IP-адресу. Платформа сама загрузит вам пульт прямо в браузере. -->
 
